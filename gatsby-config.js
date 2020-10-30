@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    title: `Justin Venbrux`,
+  },
   plugins: [
     `gatsby-plugin-emotion`,
     {

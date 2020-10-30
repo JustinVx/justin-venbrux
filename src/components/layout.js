@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "@emotion/styled"
 import { css } from "@emotion/core"
-import { Link } from "gatsby"
+import { useStaticQuery, Link, graphql } from "gatsby"
 
 import { rhythm } from "../utils/typography"
 
@@ -20,11 +20,22 @@ const LayoutContainer = styled.div`
 `
 
 export default function Layout({ children }) {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `
+  )
   return (
     <LayoutContainer>
       <Link to={`/`}>
         <h3>
-          Pandas Eating Lots
+          {data.site.siteMetadata.title}
         </h3>
       </Link>
       <Link
