@@ -50,8 +50,8 @@ export default function Layout({ children }) {
         </Link>
       </NavLink>
       <NavLink>
-        <Link to={`/work/`} >
-          Work
+        <Link to={`/blog/`} >
+          Blog
         </Link>
       </NavLink>
       {children}
