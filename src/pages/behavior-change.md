@@ -4,7 +4,6 @@ date: "2020-09-07"
 type: blogpost
 featured: false
 ---
-# How to help people change their behavior
 An overview of research into behavior change theory that I did while writing the thesis for my MSc.
 
 ## Classical conditioning
