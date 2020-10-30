@@ -13,6 +13,7 @@ const LayoutContainer = styled.div`
 
   h3 {
     margin-bottom: ${rhythm(2)};
+    margin-top: 0;
     display: inline-block;
     font-style: normal;
   }
