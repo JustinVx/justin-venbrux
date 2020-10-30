@@ -10,13 +10,13 @@ const LayoutContainer = styled.div`
   max-width: 700px;
   padding: ${rhythm(2)};
   padding-top: ${rhythm(1.5)};
+`
 
-  h3 {
-    margin-bottom: ${rhythm(2)};
-    margin-top: 0;
-    display: inline-block;
-    font-style: normal;
-  }
+const WebTitle = styled.h3`
+  margin-bottom: ${rhythm(2)};
+  margin-top: 0;
+  display: inline-block;
+  font-style: normal;
 `
 
 export default function Layout({ children }) {
@@ -34,9 +34,9 @@ export default function Layout({ children }) {
   return (
     <LayoutContainer>
       <Link to={`/`}>
-        <h3>
+        <WebTitle>
           {data.site.siteMetadata.title}
-        </h3>
+        </WebTitle>
       </Link>
       <Link
         to={`/about/`}
