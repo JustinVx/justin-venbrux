@@ -12,12 +12,18 @@ const LayoutContainer = styled.div`
   padding-top: ${rhythm(1.5)};
 `
 
-const WebTitle = styled.h3`
+const NavTitle = styled.h3`
   margin-bottom: ${rhythm(2)};
   margin-top: 0;
   display: inline-block;
   font-style: normal;
 `
+
+const NavLink = styled.div`
+  float: right;
+  padding-left: 1em;
+`
+
 
 export default function Layout({ children }) {
   const data = useStaticQuery(
@@ -34,18 +40,20 @@ export default function Layout({ children }) {
   return (
     <LayoutContainer>
       <Link to={`/`}>
-        <WebTitle>
+        <NavTitle>
           {data.site.siteMetadata.title}
-        </WebTitle>
+        </NavTitle>
       </Link>
-      <Link
-        to={`/about/`}
-        css={css`
-          float: right;
-        `}
-      >
-        About
-      </Link>
+      <NavLink>
+        <Link to={`/about/`} >
+          About
+        </Link>
+      </NavLink>
+      <NavLink>
+        <Link to={`/work/`} >
+          Work
+        </Link>
+      </NavLink>
       {children}
     </LayoutContainer>
   )
