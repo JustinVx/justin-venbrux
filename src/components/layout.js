@@ -1,27 +1,28 @@
 import React from "react"
 import { css } from "@emotion/core"
+import { styled } from "@emotion/styled"
 import { Link } from "gatsby"
 
 import { rhythm } from "../utils/typography"
 
+const LayoutContainer = styled.div`
+  margin: 0 auto;
+  max-width: 700px;
+  padding: ${rhythm(2)};
+  padding-top: ${rhythm(1.5)};
+
+  h3 {
+    margin-bottom: ${rhythm(2)};
+    display: inline-block;
+    font-style: normal;
+  }
+`
+
 export default function Layout({ children }) {
   return (
-    <div
-      css={css`
-        margin: 0 auto;
-        max-width: 700px;
-        padding: ${rhythm(2)};
-        padding-top: ${rhythm(1.5)};
-      `}
-    >
+    <LayoutContainer>
       <Link to={`/`}>
-        <h3
-          css={css`
-            margin-bottom: ${rhythm(2)};
-            display: inline-block;
-            font-style: normal;
-          `}
-        >
+        <h3>
           Pandas Eating Lots
         </h3>
       </Link>
@@ -34,6 +35,6 @@ export default function Layout({ children }) {
         About
       </Link>
       {children}
-    </div>
+    </LayoutContainer>
   )
 }
