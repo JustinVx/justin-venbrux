@@ -10,6 +10,7 @@ An overview of research into behavior change theory that I did while writing the
 One of the basic building blocks of behavior change theory is classical conditioning.[^1] Classical conditioning is best explained through a famous experiment by Russian physiologist Ivan Pavlov. In the experiment he used three things: dogs, a bell and dog food. Every time he gave food to the dogs, he rang the bell five second before. After a while, the dogs began to salivate when they heard the bell, even if no food was coming. The insight here is that you can elicit a response from a stimulus by associating it with another stimulus.
 
 /img/behavior-change/classical-conditioning.png
+![alpha](https://example.com/favicon.ico "Image classical conditioning")
 
 ## Operant conditioning
 The younger (but bigger) brother of classical conditioning is operant conditioning.[^2] Operant conditioning is a process where a behavior is followed by either a reward or a punishment. A reward will make it more likely for a behavior to be repeated, while a punishment makes it less likely for a behavior to repeated.

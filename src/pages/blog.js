@@ -11,6 +11,7 @@ const PostTitle = styled.h3`
 
 const PostDate = styled.span`
   color: #bbb;
+  background-image: none;
 `
 
 export default function Blog({ data }) {
@@ -18,7 +19,6 @@ export default function Blog({ data }) {
   return (
     <Layout>
       <div>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -29,15 +29,16 @@ export default function Blog({ data }) {
               `}
             >
               <PostTitle>
-                {node.frontmatter.title}{" "}
-                <PostDate>
-                  — {node.frontmatter.date}
-                </PostDate>
+                {node.frontmatter.title}{" "}              
               </PostTitle>
+              <PostDate>
+                  {node.frontmatter.date}
+              </PostDate>
               <p>{node.excerpt}</p>
             </Link>
           </div>
         ))}
+        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       </div>
     </Layout>
   )
@@ -52,7 +53,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "DD MMMM YYYY")
           }
           fields {
             slug

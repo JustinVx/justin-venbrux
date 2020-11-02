@@ -10,13 +10,23 @@ const LayoutContainer = styled.div`
   max-width: 700px;
   padding: ${rhythm(2)};
   padding-top: ${rhythm(1.5)};
+  
+  color: #252733;
+
+  h1, h2, h3, h4 {
+    margin-top: ${rhythm(2)};
+  }
 `
 
-const NavTitle = styled.h3`
+const NavTitle = styled.div`
   margin-bottom: ${rhythm(2)};
   margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   display: inline-block;
   font-style: normal;
+
+  background-image: linear-gradient(to top, rgb(186, 129, 78), rgb(186, 129, 67) 7px, rgba(0, 0, 0, 0) 7px);
 `
 
 const NavLink = styled.div`
@@ -44,16 +54,6 @@ export default function Layout({ children }) {
           {data.site.siteMetadata.title}
         </NavTitle>
       </Link>
-      <NavLink>
-        <Link to={`/about/`} >
-          About
-        </Link>
-      </NavLink>
-      <NavLink>
-        <Link to={`/blog/`} >
-          Blog
-        </Link>
-      </NavLink>
       {children}
     </LayoutContainer>
   )

@@ -1,9 +1,19 @@
 import Typography from "typography"
-import doelgerTheme from "typography-theme-doelger"
-doelgerTheme.headerFontFamily = ['Poppins', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
-doelgerTheme.bodyFontFamily= ['Open Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
 
-const typography = new Typography(doelgerTheme)
+const typography = new Typography({
+  baseFontSize: "18px",
+  baseLineHeight: 1.666,
+  headerFontFamily: [
+    "Open Sans",
+    "-apple-system",
+    "BlinkMacSystemFont",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica",
+    "sans-serif",
+  ],
+  bodyFontFamily: ["Open Sans", "serif"],
+})
 
 export default typography
 export const rhythm = typography.rhythm

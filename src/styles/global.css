@@ -1,0 +1,10 @@
+@implort url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap');
+
+html {
+  background-color: #f7f7f7;
+}
+
+a {
+  text-shadow: none;
+  background-image: none;
+}
