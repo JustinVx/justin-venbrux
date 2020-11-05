@@ -2,12 +2,12 @@ import React from "react"
 import styled from "@emotion/styled"
 import { css } from "@emotion/core"
 import { useStaticQuery, Link, graphql } from "gatsby"
-
 import { rhythm } from "../utils/typography"
+import Header from "../components/header"
 
 const LayoutContainer = styled.div`
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 900px;
   padding: ${rhythm(2)};
   padding-top: ${rhythm(1.5)};
   
@@ -25,7 +25,6 @@ const NavTitle = styled.div`
   margin-right: auto;
   display: inline-block;
   font-style: normal;
-
   background-image: linear-gradient(to top, rgb(186, 129, 78), rgb(186, 129, 67) 7px, rgba(0, 0, 0, 0) 7px);
 `
 
@@ -36,25 +35,12 @@ const NavLink = styled.div`
 
 
 export default function Layout({ children }) {
-  const data = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `
-  )
   return (
-    <LayoutContainer>
-      <Link to={`/`}>
-        <NavTitle>
-          {data.site.siteMetadata.title}
-        </NavTitle>
-      </Link>
-      {children}
-    </LayoutContainer>
+    <>
+      <Header />
+      <LayoutContainer>
+        {children}
+      </LayoutContainer>
+    </>
   )
 }
