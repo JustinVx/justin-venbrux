@@ -11,24 +11,27 @@ const NavContainer = styled.div`
   margin-right: 2rem;
 
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
 
   a {
-    display: inline-block;
     text-decoration: none;
     color: grey;
   }
 `
 
 const NavTitle = styled.div`
-  margin-bottom: ${rhythm(2)};
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
   font-style: normal;
   background-image: linear-gradient(to top, rgb(186, 129, 78), rgb(186, 129, 67) 7px, rgba(0, 0, 0, 0) 7px);
+`
+
+const NavMenu = styled.div`
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    margin-left: 1rem;
+  }
 `
 
 export default function Header() {
@@ -37,6 +40,14 @@ export default function Header() {
       <Link to={`/`}>
         Justin Venbrux
       </Link>
+      <NavMenu>
+        <Link to={`/about/`}>
+          About
+        </Link>
+        <Link to={`/blog/`}>
+          Blog
+        </Link>
+      </NavMenu>
     </NavContainer>
   )
 }
