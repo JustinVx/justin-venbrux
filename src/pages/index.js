@@ -7,9 +7,9 @@ import { rhythm } from "../utils/typography"
 
 const HeroContainer = styled.div`
   margin: 0 auto;
-  max-width: 900px;
-  padding: ${rhythm(2)};
+  max-width: 800px;
   padding-top: ${rhythm(1.5)};
+  padding-bottom: ${rhythm(3)}
   
   color: #252733;
 
@@ -20,7 +20,7 @@ const HeroContainer = styled.div`
 
 const Hero = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 250px;
   max-width: 800px;
   margin-bottom: ${rhythm(2)};
 
@@ -34,7 +34,6 @@ const Hero = styled.div`
     background-color: white;
     width: 250px;
     height: 250px;
-    justify-content: right;
     box-shadow: 0px 0px 12px #ddd;
     transform: rotate(2deg);
   }

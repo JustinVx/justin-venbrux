@@ -5,7 +5,6 @@ import Header from "../components/header"
 export default function About() {
   return (
     <Layout>
-      <Header />
       <h1>Furdinand</h1>
       <h2>A needy robot</h2>
       <p><em>

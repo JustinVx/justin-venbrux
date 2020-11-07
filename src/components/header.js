@@ -5,10 +5,11 @@ import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
 
 const NavContainer = styled.div`
-  margin-top: ${rhythm(1)};
+  margin-top: ${rhythm(2)};
   margin-bottom: ${rhythm(1.5)};
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 
   display: flex;
   justify-content: space-between;
@@ -17,6 +18,10 @@ const NavContainer = styled.div`
   a {
     text-decoration: none;
     color: grey;
+  }
+
+  a:hover {
+    color: black;
   }
 `
 
@@ -41,6 +46,9 @@ export default function Header() {
         Justin Venbrux
       </Link>
       <NavMenu>
+        <Link to={`/work/`}>
+          Work
+        </Link>
         <Link to={`/about/`}>
           About
         </Link>
