@@ -4,6 +4,7 @@ import { css } from "@emotion/core"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 const LayoutContainer = styled.div`
   margin: 0 auto;
@@ -35,6 +36,7 @@ export default function Layout({ children }) {
       <LayoutContainer>
         {children}
       </LayoutContainer>
+      <Footer />
     </>
   )
 }

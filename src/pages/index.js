@@ -2,6 +2,7 @@ import React from "react"
 import styled from "@emotion/styled"
 import { Link, graphql } from "gatsby"
 import Header from "../components/header"
+import Footer from "../components/footer"
 import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
 
@@ -107,6 +108,7 @@ export default function Index({ data }) {
         <br />
         <br />
       </WorkContainer>
+      <Footer />
     </>
 
   )
