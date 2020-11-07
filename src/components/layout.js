@@ -7,7 +7,7 @@ import Header from "../components/header"
 
 const LayoutContainer = styled.div`
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 700px;
   padding: ${rhythm(2)};
   padding-top: ${rhythm(1.5)};
   
@@ -27,12 +27,6 @@ const NavTitle = styled.div`
   font-style: normal;
   background-image: linear-gradient(to top, rgb(186, 129, 78), rgb(186, 129, 67) 7px, rgba(0, 0, 0, 0) 7px);
 `
-
-const NavLink = styled.div`
-  float: right;
-  padding-left: 1em;
-`
-
 
 export default function Layout({ children }) {
   return (

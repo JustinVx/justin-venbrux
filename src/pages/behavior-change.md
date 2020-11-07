@@ -2,7 +2,6 @@
 title: "How to help people change their behavior"
 date: "2020-09-07"
 type: blogpost
-featured: false
 ---
 An overview of research into behavior change theory that I did while writing the thesis for my MSc.
 

@@ -1,8 +1,22 @@
 import React from "react"
 import styled from "@emotion/styled"
 import { Link, graphql } from "gatsby"
-import Layout from "../components/layout"
+import Header from "../components/header"
+import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
+
+const HeroContainer = styled.div`
+  margin: 0 auto;
+  max-width: 900px;
+  padding: ${rhythm(2)};
+  padding-top: ${rhythm(1.5)};
+  
+  color: #252733;
+
+  h1, h2, h3, h4 {
+    margin-top: ${rhythm(2)};
+  }
+`
 
 const Hero = styled.div`
   display: grid;
@@ -12,7 +26,7 @@ const Hero = styled.div`
 
   .hero-text {
     font-family: "Alegreya Sans", "Open Sans", serif;
-    text-align: right;
+    text-align: left;
     max-width: 300px;
   }
 
@@ -38,7 +52,7 @@ const Hero = styled.div`
   }
 `
 
-const HomeContainer = styled.div`
+const WorkContainer = styled.div`
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -49,7 +63,7 @@ const HomeContainer = styled.div`
   color: #252733;
 
   h1, h2, h3, h4 {
-    margin-top: ${rhythm(2)};
+    margin-top: 0;
   }
 `
 
@@ -63,7 +77,8 @@ const Work = styled.div`
 export default function Index({ data }) {
   return (
     <>
-      <Layout>
+      <Header />
+      <HeroContainer>
         <Hero>
           <div class="hero-text">
             <h1>
@@ -76,9 +91,11 @@ export default function Index({ data }) {
           <div class="hero-image">
           </div>
         </Hero>
-      </Layout>
-      <HomeContainer>
+      </HeroContainer>
+      <WorkContainer>
         <Work>
+          <ProjectCard />
+          <ProjectCard />
           <h2>Work</h2>
           <p>
             We're the only site running on your computer dedicated to showing the
@@ -90,7 +107,7 @@ export default function Index({ data }) {
         </Work>
         <br />
         <br />
-      </HomeContainer>
+      </WorkContainer>
     </>
 
   )
