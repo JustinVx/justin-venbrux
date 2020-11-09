@@ -9,8 +9,8 @@ import { rhythm } from "../utils/typography"
 const HeroContainer = styled.div`
   margin: 0 auto;
   max-width: 800px;
-  padding-top: ${rhythm(1.5)};
-  padding-bottom: ${rhythm(3)}
+  padding-top: ${rhythm(2.5)};
+  padding-bottom: ${rhythm(2.5)};
   
   color: #252733;
 
@@ -21,7 +21,7 @@ const HeroContainer = styled.div`
 
 const Hero = styled.div`
   display: grid;
-  grid-template-columns: 1fr 250px;
+  grid-template-columns: 1fr 350px;
   max-width: 800px;
   margin-bottom: ${rhythm(2)};
 
@@ -96,11 +96,6 @@ export default function Index({ data }) {
         <Work>
           <ProjectCard />
           <ProjectCard />
-          <h2>Work</h2>
-          <p>
-            We're the only site running on your computer dedicated to showing the
-            best photos and videos of pandas eating lots of food.
-          </p>
           <p>
             Here's <Link to={`/blog/`} >Blog</Link> and a <Link to={`/about/`} >another page</Link>.
           </p>

@@ -4,15 +4,15 @@ const typography = new Typography({
   baseFontSize: "18px",
   baseLineHeight: 1.666,
   headerFontFamily: [
-    "Open Sans",
     "-apple-system",
     "BlinkMacSystemFont",
     "Segoe UI",
     "Roboto",
+    "Open Sans",
     "Helvetica",
     "sans-serif",
   ],
-  bodyFontFamily: ["Open Sans", "serif"],
+  bodyFontFamily: ["-apple-system","Open Sans", "serif"],
 })
 
 export default typography

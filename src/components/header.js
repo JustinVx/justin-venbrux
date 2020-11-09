@@ -11,23 +11,26 @@ const NavContainer = styled.div`
   margin-right: auto;
   max-width: 800px;
 
+  font-weight: bold;
+  font-size: 0.7rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   a {
     text-decoration: none;
-    color: grey;
+    color: black;
   }
 
   a:hover {
-    color: black;
+    transform: scale(0.9);
+    background-image: linear-gradient(to top, rgb(186, 129, 78), rgb(186, 129, 67) 2px, rgba(0, 0, 0, 0) 2px);
   }
 `
 
 const NavTitle = styled.div`
-  font-style: normal;
-  background-image: linear-gradient(to top, rgb(186, 129, 78), rgb(186, 129, 67) 7px, rgba(0, 0, 0, 0) 7px);
+  font-family: "Vera Mono";
 `
 
 const NavMenu = styled.div`
@@ -42,9 +45,11 @@ const NavMenu = styled.div`
 export default function Header() {
   return (
     <NavContainer>
-      <Link to={`/`}>
-        Justin Venbrux
-      </Link>
+      <NavTitle>
+        <Link to={`/`}>
+          💡 Justin Venbrux
+        </Link>
+      </NavTitle>
       <NavMenu>
         <Link to={`/work/`}>
           Work
@@ -53,7 +58,7 @@ export default function Header() {
           About
         </Link>
         <Link to={`/blog/`}>
-          Blog
+          Writing
         </Link>
       </NavMenu>
     </NavContainer>
