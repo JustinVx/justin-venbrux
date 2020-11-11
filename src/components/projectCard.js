@@ -118,14 +118,14 @@ const ProjectCardImageContainer = styled("div")`
     }
 `
 
-const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
+const ProjectCard = ({ title, description, thumbnail, uid}) => (
     <ProjectCardContainer to={`/work/${uid}`}>
         <ProjectCardContent className="ProjectCardContent">
             <ProjectCardTitle>
-                Taming Esortra
+                {title}
             </ProjectCardTitle>
             <ProjectCardBlurb>
-                A persuasive game that uses narrative and data to motivate osteoarthritis patients to exercise.
+                {description}
             </ProjectCardBlurb>
             <ProjectCardAction className="ProjectCardAction">
                 View case <span>&#8594;</span>

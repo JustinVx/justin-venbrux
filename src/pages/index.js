@@ -102,8 +102,14 @@ export default function Index({ data }) {
       </HeroContainer>
       <WorkContainer>
         <Work>
-          <ProjectCard />
-          <ProjectCard />
+          <ProjectCard 
+            title="Genzō"
+            description="Remote expertise using smartglasses."
+          />
+          <ProjectCard 
+            title="Taming Esortra"
+            description="A persuasive game that uses narrative and data to motivate osteoarthritis patients to exercise."
+          />
           <p>
             Here's <Link to={`/blog/`} >Blog</Link> and a <Link to={`/about/`} >another page</Link>.
           </p>
