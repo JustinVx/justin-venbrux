@@ -5,6 +5,8 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
+import sticker from "../images/sticker.png"
+import justin from "../images/black-white.jpg"
 
 const HeroContainer = styled.div`
   margin: 0 auto;
@@ -21,22 +23,31 @@ const HeroContainer = styled.div`
 
 const Hero = styled.div`
   display: grid;
-  grid-template-columns: 1fr 350px;
+  grid-template-columns: 1fr;
+  justify-content: center;
   max-width: 800px;
   margin-bottom: ${rhythm(2)};
 
   .hero-text {
     font-family: "Alegreya Sans", "Open Sans", serif;
-    text-align: left;
-    max-width: 300px;
+    text-align: center;
+
+    h1 {
+      margin-top: ${rhythm(1)};
+    }
   }
 
   .hero-image {
-    background-color: white;
-    width: 250px;
-    height: 250px;
-    box-shadow: 0px 0px 12px #ddd;
-    transform: rotate(2deg);
+    display: float;
+    justify-content: center;
+    
+    img {
+      background-color: #fff276;
+      border-radius: 12px;
+      box-shadow: 0px 3px 12px #ddd;
+      transform: rotate(2deg);
+      margin-bottom: 0px;
+    }
   }
 
   h1 {
@@ -59,7 +70,7 @@ const WorkContainer = styled.div`
   padding: ${rhythm(2)};
   padding-top: ${rhythm(1.5)};
 
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
   color: #252733;
 
   h1, h2, h3, h4 {
@@ -80,6 +91,9 @@ export default function Index({ data }) {
       <Header />
       <HeroContainer>
         <Hero>
+          <div class="hero-image">
+            <img src={sticker} width="90px"/>
+          </div>
           <div class="hero-text">
             <h1>
               I'm <b>Justin</b>.
@@ -87,8 +101,6 @@ export default function Index({ data }) {
             <h3>
               I design cool things that help people. 🚀
             </h3>
-          </div>
-          <div class="hero-image">
           </div>
         </Hero>
       </HeroContainer>

@@ -2,6 +2,7 @@ import React from "react"
 import styled from "@emotion/styled"
 import { rhythm } from "../utils/typography"
 
+
 const FooterContainer = styled.div`
   display: flex;
   justify-content: center;
