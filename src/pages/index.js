@@ -11,14 +11,10 @@ import justin from "../images/black-white.jpg"
 const HeroContainer = styled.div`
   margin: 0 auto;
   max-width: 800px;
-  padding-top: ${rhythm(2.5)};
-  padding-bottom: ${rhythm(2.5)};
+  padding-top: ${rhythm(2)};
+  padding-bottom: ${rhythm(1.5)};
   
   color: #252733;
-
-  h1, h2, h3, h4 {
-    margin-top: ${rhythm(2)};
-  }
 `
 
 const Hero = styled.div`
@@ -92,7 +88,7 @@ export default function Index({ data }) {
       <HeroContainer>
         <Hero>
           <div class="hero-image">
-            <img src={sticker} width="90px"/>
+            <img src={justin} width="90px"/>
           </div>
           <div class="hero-text">
             <h1>

@@ -25,6 +25,9 @@ const NavContainer = styled.div`
 
   a:hover {
     transform: scale(0.9);
+  }
+
+  a:active {
     background-image: linear-gradient(to top, rgb(186, 129, 78), rgb(186, 129, 67) 2px, rgba(0, 0, 0, 0) 2px);
   }
 `
