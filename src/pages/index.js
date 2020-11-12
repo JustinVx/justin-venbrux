@@ -6,6 +6,7 @@ import Footer from "../components/footer"
 import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
 import taming from "../images/taming-home.png"
+import tamingLogo from "../images/taming-logo.png"
 import genzo from "../images/genzo-home.jpg"
 import justin from "../images/black-white.jpg"
 
@@ -109,11 +110,13 @@ export default function Index({ data }) {
             title="Genzō"
             description="Remote expertise using smartglasses."
             thumbnail={genzo}
+            logo={tamingLogo}
           />
           <ProjectCard 
             title="Taming Esortra"
             description="A persuasive game that uses narrative and data to motivate osteoarthritis patients to exercise."
             thumbnail={taming}
+            logo={tamingLogo}
           />
           <p>
             Here's <Link to={`/blog/`} >Blog</Link> and a <Link to={`/about/`} >another page</Link>.
