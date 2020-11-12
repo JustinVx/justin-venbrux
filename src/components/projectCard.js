@@ -15,7 +15,7 @@ const ProjectCardContainer = styled(Link)`
       transition: all 150ms ease-in-out;
 
       .ProjectCardAction {
-        color: blue;
+        color: darkred;
         transition: all 150ms ease-in-out;
 
         span {
@@ -25,41 +25,19 @@ const ProjectCardContainer = styled(Link)`
         }
       }
 
-      .ProjectCardContent::before {
-        opacity: 0.02;
+      .ProjectCardImageContainer img {
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
         transition: all 150ms ease-in-out;
       }
 
-      .ProjectCardImageContainer::before {
-        box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.1);
-        opacity: 0.2;
-        transition: all 150ms ease-in-out;
-      }
     }
+    
 `
 
 const ProjectCardContent = styled("div")`
     background: none;
     padding: 1em 3em 2.25em 0;
     position: relative;
-
-    &:before {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        background: none;
-        mix-blend-mode: multiply;
-        opacity: 0;
-        transition: all 150ms ease-in-out;
-    }
-`
-
-const ProjectCardCategory = styled("h6")`
-    font-weight: 600;
-    color: grey;
 `
 
 const ProjectCardTitle = styled("h3")`
@@ -88,33 +66,18 @@ const ProjectCardAction = styled("div")`
 `
 
 const ProjectCardImageContainer = styled("div")`
-    background: darkgrey;
-    box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    overflow: hidden;
     position: relative;
-    padding-left: 2em;
-    padding-right: 2em;
-
-    &:before {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        background: blue;
-        mix-blend-mode: multiply;
-        opacity: 0;
-        transition: all 150ms ease-in-out;
-    }
+    padding-left: 1em;
+    padding-right: 0em;
 
     img {
-        max-width: 400px;
+        max-width: 500px;
         width: 100%;
-        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 24px;
     }
 `
 
@@ -128,11 +91,11 @@ const ProjectCard = ({ title, description, thumbnail, uid}) => (
                 {description}
             </ProjectCardBlurb>
             <ProjectCardAction className="ProjectCardAction">
-                View case <span>&#8594;</span>
+                Learn more <span>&#8594;</span>
             </ProjectCardAction>
         </ProjectCardContent>
         <ProjectCardImageContainer className="ProjectCardImageContainer">
-            Afbeelding
+            <img src={thumbnail} alt={"An image of "+title} />
         </ProjectCardImageContainer>
     </ProjectCardContainer>
 )

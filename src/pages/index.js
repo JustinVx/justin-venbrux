@@ -5,7 +5,8 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
-import sticker from "../images/sticker.png"
+import taming from "../images/taming-home.png"
+import genzo from "../images/genzo-home.jpg"
 import justin from "../images/black-white.jpg"
 
 const HeroContainer = styled.div`
@@ -39,7 +40,9 @@ const Hero = styled.div`
     
     img {
       background-color: #fff276;
-      border-radius: 12px;
+      border: solid 10px white;
+      border-bottom: solid 20px white;
+      border-radius: 2px;
       box-shadow: 0px 3px 12px #ddd;
       transform: rotate(2deg);
       margin-bottom: 0px;
@@ -66,7 +69,7 @@ const WorkContainer = styled.div`
   padding: ${rhythm(2)};
   padding-top: ${rhythm(1.5)};
 
-  background-color: #f7f7f7;
+  background-color: #f9f9f9;
   color: #252733;
 
   h1, h2, h3, h4 {
@@ -105,10 +108,12 @@ export default function Index({ data }) {
           <ProjectCard 
             title="Genzō"
             description="Remote expertise using smartglasses."
+            thumbnail={genzo}
           />
           <ProjectCard 
             title="Taming Esortra"
             description="A persuasive game that uses narrative and data to motivate osteoarthritis patients to exercise."
+            thumbnail={taming}
           />
           <p>
             Here's <Link to={`/blog/`} >Blog</Link> and a <Link to={`/about/`} >another page</Link>.
