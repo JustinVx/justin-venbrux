@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.35",
+    "@emotion/react": "^11.0.0",
     "@emotion/styled": "^10.0.27",
     "fontsource-alegreya-sans": "^3.0.11",
     "fontsource-open-sans": "^3.0.9",

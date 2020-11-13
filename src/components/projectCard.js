@@ -63,7 +63,7 @@ const ProjectCardContent = styled.div`
   position: relative;
 `
 
-const ProjectCardTitle = styled.h3`
+const ProjectCardTitle = styled.h2`
   margin-bottom: 0.5em;
   margin-top: 0px;
 `
@@ -76,6 +76,7 @@ const ProjectCardBlurb = styled.div`
 
 const ProjectCardAction = styled.div`
   font-weight: 500;
+  font-size: 0.9rem;
   text-decoration: none;
   color: #343a40;
   transition: all 150ms ease-in-out;
@@ -91,6 +92,7 @@ const ProjectCardAction = styled.div`
     transform: translateX(-8px);
     display: inline-block;
     transition: transform 150ms ease-in-out;
+    opacity: 0.5;
   }
 `
 
@@ -141,8 +143,8 @@ const ProjectCardImageLogo = styled.div`
 `
 
 
-const ProjectCard = ({ title, description, thumbnail, logo, uid}) => (
-  <ProjectCardContainer to={`/work/${uid}`}>
+const ProjectCard = ({ title, description, thumbnail, logo, file}) => (
+  <ProjectCardContainer to={`/${file}/`}>
     <ProjectCardContent className="ProjectCardContent">
       <ProjectCardTitle>
         {title}

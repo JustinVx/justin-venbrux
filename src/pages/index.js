@@ -81,6 +81,49 @@ const WorkContainer = styled.div`
 const Work = styled.div`
   margin-left: 0;
   max-width: 800px;
+  justify-content: center;
+`
+
+const WorkButtonContainer = styled.div`
+  display: flex;
+  justify-content: flex-end;
+`
+
+const WorkButton = styled(Link)`
+  display: block;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #343a40;
+  transition: all 150ms ease-in-out;
+  background: white;
+  display: inline-block;
+  padding: 0.2em 0.5em 0.3em 1.5em;
+  padding-right: 0.5em;
+  border-radius: 100px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.20);
+
+  span {
+    margin-left: 1em;
+    transform: translateX(-8px);
+    display: inline-block;
+    transition: transform 100ms ease-in-out;
+    opacity: 0.5;
+  }
+
+  &:hover {
+    transform: translateX(-8px);
+    color: #f5f5f5;
+    background: #343a40;
+    transition: all 150ms ease-in-out;
+    padding-right: 1em;
+
+    span {
+      transform: translateX(0px);
+      opacity: 1;
+      transition: transform 100ms ease-in-out;
+    }
+  }
 `
 
 
@@ -108,19 +151,23 @@ export default function Index({ data }) {
         <Work>
           <ProjectCard 
             title="Genzō"
-            description="Remote expertise using smartglasses."
+            description="Help healthcare professionals to provide or receive remote expertise using smartglasses."
             thumbnail={genzo}
-            logo={tamingLogo}
+            logo={justin}
+            file="about"
           />
           <ProjectCard 
             title="Taming Esortra"
-            description="A persuasive game that uses narrative and data to motivate osteoarthritis patients to exercise."
+            description="Give osteoarthritis patients control over their disease using exercise."
             thumbnail={taming}
             logo={tamingLogo}
+            file="taming-esortra"
           />
-          <p>
-            Here's <Link to={`/blog/`} >Blog</Link> and a <Link to={`/about/`} >another page</Link>.
-          </p>
+          <WorkButtonContainer>
+            <WorkButton to={'/work/'}>
+              See more work <span>&#8594;</span>
+            </WorkButton>
+          </WorkButtonContainer>
         </Work>
         <br />
         <br />
