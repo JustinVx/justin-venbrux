@@ -20,11 +20,6 @@ const NavContainer = styled.div`
 
   a {
     text-decoration: none;
-    color: black;
-  }
-
-  a:hover {
-    transform: scale(0.9);
   }
 
   a:active {
@@ -42,6 +37,17 @@ const NavMenu = styled.div`
 
   a {
     margin-left: 1rem;
+    color: #444;
+  }
+
+  a:hover {
+    transform: scale(1.1);
+    color: black;
+  }
+
+  .active {
+    color: black;
+    border-bottom: 3px solid currentColor;
   }
 `
 
@@ -54,14 +60,17 @@ export default function Header() {
         </Link>
       </NavTitle>
       <NavMenu>
-        <Link to={`/work/`}>
+        <Link to={`/`} activeClassName="active">
+          Home
+        </Link>
+        <Link to={`/work/`} activeClassName="active">
           Work
         </Link>
-        <Link to={`/about/`}>
+        <Link to={`/about/`} activeClassName="active">
           About
         </Link>
-        <Link to={`/blog/`}>
-          Writing
+        <Link to={`/blog/`} activeClassName="active">
+          Blog
         </Link>
       </NavMenu>
     </NavContainer>
