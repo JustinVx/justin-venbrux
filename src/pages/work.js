@@ -1,14 +1,11 @@
 import React from "react"
 import styled from "@emotion/styled"
-import { Link } from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
 import taming from "../images/taming-home.png"
 import tamingLogo from "../images/taming-logo.png"
-import genzo from "../images/genzo-home.jpg"
-import justin from "../images/black-white.jpg"
 
 const AboutPageContainer = styled.div`
   margin: 0 auto;

@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "@emotion/styled"
-import { css } from "@emotion/core"
 import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
 
@@ -56,7 +55,7 @@ export default function Header() {
     <NavContainer>
       <NavTitle>
         <Link to={`/`}>
-          💡 Justin Venbrux
+          <span role="img" aria-label="light bulb">💡</span> Justin Venbrux
         </Link>
       </NavTitle>
       <NavMenu>

@@ -135,14 +135,14 @@ export default function Index({ data }) {
       <HeroContainer>
         <Hero>
           <div class="hero-image">
-            <img src={justin} width="90px"/>
+            <img src={justin} alt="Justin" width="90px"/>
           </div>
           <div class="hero-text">
             <h1>
               I'm <b>Justin</b>.
             </h1>
             <h3>
-              I design cool things that help people. 🚀
+              I design cool things that help people. <span role="img" aria-label="rocket">🚀</span>
             </h3>
           </div>
         </Hero>

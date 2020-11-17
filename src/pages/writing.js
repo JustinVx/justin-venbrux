@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "@emotion/styled"
-import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
@@ -76,7 +75,7 @@ export default function Blog({ data }) {
   return (
     <Layout>
       <AboutPage>
-        I write to collect and recollect what I think and read about. ✍️ 
+        I write to collect and recollect what I think and read about. <span role="img" aria-label="writing hand">✍️</span>
       </AboutPage>
       <div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
