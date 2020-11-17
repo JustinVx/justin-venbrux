@@ -72,16 +72,16 @@ const WorkContainer = styled.div`
 
   background-color: #f9f9f9;
   color: #252733;
-
-  h1, h2, h3, h4 {
-    margin-top: 0;
-  }
 `
 
 const Work = styled.div`
   margin-left: 0;
   max-width: 800px;
   justify-content: center;
+
+  h1, h2, h3, h4 {
+    margin-top: 0;
+  }
 `
 
 const WorkButtonContainer = styled.div`

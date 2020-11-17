@@ -8,7 +8,7 @@ import Footer from "../components/footer"
 
 const LayoutContainer = styled.div`
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 730px;
   padding: ${rhythm(2)};
   padding-top: ${rhythm(1.5)};
   

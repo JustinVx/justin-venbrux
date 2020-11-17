@@ -1,5 +1,5 @@
 ---
-title: "How to help people change their behavior"
+title: "Lessons on changing behavior"
 date: "2020-09-07"
 type: blogpost
 ---
