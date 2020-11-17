@@ -18,7 +18,7 @@ const AboutPageContainer = styled.div`
   padding-bottom: 0;
 `
 
-const AboutPage = styled.div`
+const AboutPage = styled.p`
   font-size: 1.4rem;
   font-weight: normal;
   margin-top: ${rhythm(1)};
@@ -30,7 +30,7 @@ const WorkContainer = styled.div`
   justify-content: center;
   margin: 0 auto;
   padding: ${rhythm(2)};
-  padding-top: ${rhythm(1.5)};
+  padding-top: ${rhythm(0)};
   color: #252733;
 `
 

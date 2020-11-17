@@ -5,7 +5,7 @@ import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 
-const AboutPage = styled.div`
+const AboutPage = styled.p`
   font-size: 1.4rem;
   font-weight: normal;
   margin-top: ${rhythm(1)};

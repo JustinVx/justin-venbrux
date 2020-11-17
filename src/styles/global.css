@@ -2,10 +2,20 @@
 
 html {
   background-color: white;
+  color: #252733;
 }
 
 a {
   color: black;
   text-shadow: none;
   background-image: none;
+}
+
+p a {
+  text-decoration: none;
+  background-image: linear-gradient(to top, rgb(255, 242, 118), rgb(255, 242, 118) 7px, rgba(0, 0, 0, 0) 7px);
+}
+
+p a:hover {
+  background-image: linear-gradient(to top, #ff7676, #ff7676 7px, rgba(0, 0, 0, 0) 7px);
 }
