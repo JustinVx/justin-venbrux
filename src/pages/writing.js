@@ -76,7 +76,7 @@ export default function Blog({ data }) {
   return (
     <Layout>
       <AboutPage>
-        Things I wrote. ✍️
+        I write to collect and recollect what I think and read about. ✍️ 
       </AboutPage>
       <div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
