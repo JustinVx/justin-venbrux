@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 const AboutPage = styled.p`
   font-size: 1.4rem;
   font-weight: normal;
+  text-align: center;
   margin-top: ${rhythm(1)};
   margin-bottom: ${rhythm(2)};
 `

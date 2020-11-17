@@ -18,6 +18,7 @@ const AboutPageContainer = styled.div`
 const AboutPage = styled.p`
   font-size: 1.4rem;
   font-weight: normal;
+  text-align: center;
   margin-top: ${rhythm(1)};
   margin-bottom: ${rhythm(2)};
 `
@@ -43,7 +44,7 @@ export default function Index() {
       <Header />
       <AboutPageContainer>
         <AboutPage>
-            Below is a selection of projects I worked on. You can always <a href="mailto:info@justinvenbrux.nl">e-mail me</a> for questions, comments or suggestions. 🥽 
+            Below is a selection of projects I worked on. <a href="mailto:info@justinvenbrux.nl">Email me</a> for questions, comments or suggestions. 🥽 
         </AboutPage>
       </AboutPageContainer>
       <WorkContainer>
