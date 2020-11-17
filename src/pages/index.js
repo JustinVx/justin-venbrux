@@ -27,7 +27,7 @@ const Hero = styled.div`
   margin-bottom: ${rhythm(2)};
 
   .hero-text {
-    font-family: "Alegreya Sans", "Open Sans", serif;
+    font-family: "Open Sans", serif;
     text-align: center;
 
     h1 {
@@ -139,7 +139,7 @@ export default function Index({ data }) {
           </div>
           <div class="hero-text">
             <h1>
-              I'm <b>Justin</b>.
+              I'm Justin.
             </h1>
             <h3>
               I design cool things that help people. <span role="img" aria-label="rocket">🚀</span>
