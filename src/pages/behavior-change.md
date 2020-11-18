@@ -1,7 +1,10 @@
 ---
 title: "Lessons on changing behavior"
 date: "2020-09-07"
-type: blogpost
+type: blog
+thumbnail: "../images/genzo-home.jpg"
+logo: "../images/taming-logo.png"
+description: "Behavior change"
 ---
 An overview of research into behavior change theory that I did while writing the thesis for my MSc.
 

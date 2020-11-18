@@ -1,7 +1,10 @@
 ---
 title: "Taming Esortra"
 date: "2018-09-09"
-type: case
+type: work
+thumbnail: "../images/taming-home.png"
+logo: "../images/taming-logo.png"
+description: "Give osteoarthritis patients control over their disease using exercise."
 ---
 How do you motivate osteoarthritis patients to exercise when this is very painful for them? For my graduation project I worked on a way to solve this question. The result is Taming Esortra — a persuasive game that helps people with osteoarthritis to reduce and gain control over the burden of their disease.
 

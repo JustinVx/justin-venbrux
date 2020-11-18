@@ -126,18 +126,16 @@ const WorkButton = styled(Link)`
   }
 `
 
-
-
 export default function Index({ data }) {
   return (
     <>
       <Header />
       <HeroContainer>
         <Hero>
-          <div class="hero-image">
+          <div className="hero-image">
             <img src={justin} alt="Justin" width="90px"/>
           </div>
-          <div class="hero-text">
+          <div className="hero-text">
             <h1>
               I'm Justin.
             </h1>
@@ -154,14 +152,14 @@ export default function Index({ data }) {
             description="Help healthcare professionals to provide or receive remote expertise using smartglasses."
             thumbnail={genzo}
             logo={justin}
-            file="about"
+            file="/about/"
           />
           <ProjectCard 
             title="Taming Esortra"
             description="Give osteoarthritis patients control over their disease using exercise."
             thumbnail={taming}
             logo={tamingLogo}
-            file="taming-esortra"
+            file="/taming-esortra/"
           />
           <WorkButtonContainer>
             <WorkButton to={'/work/'}>
@@ -180,6 +178,19 @@ export default function Index({ data }) {
 
 export const query = graphql`
   query {
+    allMarkdownRemark {
+      edges {
+        node {
+          id
+          frontmatter {
+            date
+            title
+            type
+            description
+          }
+        }
+      }
+    }
     site {
       siteMetadata {
         title

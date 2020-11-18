@@ -6,6 +6,7 @@ import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
 import taming from "../images/taming-home.png"
 import tamingLogo from "../images/taming-logo.png"
+import { Link, graphql } from "gatsby"
 
 const AboutPageContainer = styled.div`
   margin: 0 auto;
@@ -38,7 +39,7 @@ const Work = styled.div`
   justify-content: center;
 `
 
-export default function Index() {
+export default function WorkIndex({ data }) {
   return (
       <>
       <Header />
@@ -49,30 +50,52 @@ export default function Index() {
       </AboutPageContainer>
       <WorkContainer>
         <Work>
-          <ProjectCard 
-            title="Taming Esortra"
-            description="Give osteoarthritis patients control over their disease using exercise."
-            thumbnail={taming}
-            logo={tamingLogo}
-            file="taming-esortra"
-          />
-          <ProjectCard 
-            title="Taming Esortra"
-            description="Give osteoarthritis patients control over their disease using exercise."
-            thumbnail={taming}
-            logo={tamingLogo}
-            file="taming-esortra"
-          />
-          <ProjectCard 
-            title="Taming Esortra"
-            description="Give osteoarthritis patients control over their disease using exercise."
-            thumbnail={taming}
-            logo={tamingLogo}
-            file="taming-esortra"
-          />
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <ProjectCard 
+              key={node.id}
+              title={node.frontmatter.title}
+              description={node.frontmatter.description}
+              thumbnail={node.frontmatter.thumbnail.publicURL}
+              logo={node.frontmatter.logo.publicURL}
+              file={node.fields.slug}
+            />
+          ))}
         </Work>
       </WorkContainer>
       <Footer />
     </>
   )
 }
+
+
+export const query = graphql`
+  query {
+    allMarkdownRemark {
+      edges {
+        node {
+          id
+          frontmatter {
+            date
+            title
+            type
+            description
+            thumbnail {
+              publicURL
+            }
+            logo {
+              publicURL
+            }
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`

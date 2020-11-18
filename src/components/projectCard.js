@@ -144,7 +144,7 @@ const ProjectCardImageLogo = styled.div`
 
 
 const ProjectCard = ({ title, description, thumbnail, logo, file}) => (
-  <ProjectCardContainer to={`/${file}/`}>
+  <ProjectCardContainer to={`${file}`}>
     <ProjectCardContent className="ProjectCardContent">
       <ProjectCardTitle>
         {title}
@@ -157,7 +157,7 @@ const ProjectCard = ({ title, description, thumbnail, logo, file}) => (
       </ProjectCardAction>
     </ProjectCardContent>
     <ProjectCardImageContainer className="ProjectCardImageContainer">
-      <img class="thumbnail" src={thumbnail} alt={"An image of "+title} />
+      <img className="thumbnail" src={thumbnail} alt={"An image of "+title} />
       <ProjectCardImageOverlay className="ProjectCardImageOverlay">
         <ProjectCardImageLogo className="ProjectCardImageLogo" >
           <img src={logo} alt={logo+" logo"} />
