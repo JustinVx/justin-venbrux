@@ -2,12 +2,13 @@
 title: "Taming Esortra"
 date: "2018-09-09"
 type: work
-thumbnail: "../images/taming-home.png"
-logo: "../images/taming-logo.png"
-description: "Give osteoarthritis patients control over their disease using exercise."
+thumbnail: ../images/taming-home.png
+logo: ../images/taming-logo.png
+description: "Give osteoarthritis patients control over the burden of their disease using exercise."
 ---
 
-![Test](../images/taming-home.png)
+![Tamnig Esortra](../images/taming-home.png)
+
 How do you motivate osteoarthritis patients to exercise when this is very painful for them? For my graduation project I worked on a way to solve this question. The result is Taming Esortra — a persuasive game that helps people with osteoarthritis to reduce and gain control over the burden of their disease.
 
 **Skills**: User research, Interviewing, Literature research, Storyboarding, Creative problem solving, Prototyping (Framer), Handoff to developers, Usability testing
@@ -29,7 +30,11 @@ I started by deciding what I wanted to know about the subject. Considering this 
 ### Finding out what it is like to have osteoarthritis
 Osteoarthritis is the most common joint disease in The Netherlands, with currently about 1.2 million people diagnosed. It occurs when more cartilage between joints breaks down than the body can produce. Cartilage is a rubber-like padding that covers the bones in a joint. With less cartilage it is harder for the joints to bend, turn or stretch easily and that causes pain.
 
-I signed up for a support group, interviewed a patient and a number of experts in order to understand the impact osteoarthritis can have on the life of a patient. The interviews were held using a semi-structured approach and transcribed afterwards. While doing this I realised osteoarthritis is often life changing — and not in a good way. 
+![The difference between a healthy joint and one with osteoarthritis.](../images/taming-esortra/oa.png)
+
+I signed up for a support group, interviewed a patient and a number of experts in order to understand the impact osteoarthritis can have on the life of a patient. The interviews were held using a semi-structured approach and transcribed afterwards. While doing this I realised osteoarthritis is often life changing — and not in a good way.
+
+![The hospital where I held most of the interviews. (Picture by Simon Lek)](../images/taming-esortra/erasmus-mc.jpg)
 
 The most important insights:
 1. Many patients and care professionals still believe the myth that osteoarthritis is caused by wear and tear of the joints. This causes patients to exercise less.
@@ -43,12 +48,18 @@ After looking at the impact of osteoarthritis on the life of the patient, I inve
 I found that the medical model has been very successful at curing disease, but not at preventing and dealing with chronic disease. The behaviour change required for dealing with most chronic diseases simply cannot be realised by a few doctor visits a year. The question is: how can you change this behaviour?
 
 ### Finding out how to change behavior
-In order to find out, I deep dived into behaviour research and behaviour change theory. I spent a lot of time researching the topic. With this being my thesis, I now had the opportunity to do so. I looked at anything from research on conditioning during the time of behaviorism, to theories of social cognitive theory and self-determination theory, theories about goal-directed and habitual processes, about heuristics and biases and about narrative and transportation. It would be too expansive to post all of the findings from this research, but I identified four mechanisms in particular that I used for my design:
+In order to find out, I deep dived into behaviour research and behaviour change theory. I spent a lot of time researching the topic. With this being my thesis, I now had the opportunity to do so. I looked at anything from research on conditioning during the time of behaviorism, to theories of social cognitive theory and self-determination theory, theories about goal-directed and habitual processes, about heuristics and biases and about narrative and transportation. 
+
+![A timeline depicting the developments in research on behavior change.](../images/taming-esortra/timeline.png)
+
+It would be too expansive to post all of the findings from this research, but I identified four mechanisms in particular that I used for my design:
 
 1. *The self-reinforcing loop*. A self-reinforcing loop arises when a reward gets triggered by the result of its own (re)inforcement. This can snowball a change in behavior. 
 2. *Means to an end*. Innate needs (competence, relatedness, autonomy) are more successful at changing behavior than external rewards (e.g money). People are more likely to achieve an external goal when this is used as a means for an innate need.
 3. *The right challenge*. Someone is most likely to succeed at a goal, when the amount of skill required for it is in good balance. Meaning it is not too easy as to cause boredom, neither is it too hard as to cause anxiety or frustration. 
 4. *The power of narrative.* Storytelling can help to motivate and support behaviour change by circumventing confirmation bias and other cognitive biases. Change in someone’s personal narrative can result in a change of attitude and behaviour.
+
+![The four core mechanisms](../images/taming-esortra/core-mechanisms.png)
 
 ###  How can eHealth and persuasive game design help?
 With a better understanding about osteoarthritis, the medical model and behavior change, I decided to find out what eHealth is and what its advantages and disadvantages are. eHealth is the use of ICT for healthcare. There are two types: stand-alone eHealth and blended care. Stand-alone eHealth is used as a way to substitute traditional care, whereas blended care combines eHealth and traditional care. I identified three advantages of eHealth:
@@ -69,6 +80,7 @@ The original assignment of this project was to make a design that motivates oste
 
 This results in the following design vision:
 
+![The design vision](../images/taming-esortra/design-vision.png)
 
 And from this vision the following design goal follows:
 > The goal of the design is to help improve the control the patient has over osteoarthritis, by gaining insight in the burden of the disease and reducing that burden through exercise.
@@ -79,11 +91,20 @@ Using the design goal and vision I started a period of ideation. This involved a
 ### Concept 1: Motivation treasure hunt
 The idea behind this concept is to get motivated by starting. Every physical activity leads to a ‘motivation’ as a reward. This can be a self-recorded message, a funny cat video, encouragement by a friend or many other things. The focus of this concept is on structure, self-efficacy and variable rewards.
 
+![Concept 1](../images/taming-esortra/concept-1.png)
+![Flow of concept 1](../images/taming-esortra/concept-1.jpg)
+
 ### Concept 2: Chased
 This concept is based on a metaphor, where you are a character in the game and you are being chased by the pain, stiffness, fatigue and other personal factors relating to your disease. By keeping track of these factors you can get an overview of everything that is bothering you and when this occurs. The focus of the concept is on treating the factors themselves (means to end), fun and on creating the right challenge.
 
+![Concept 2](../images/taming-esortra/concept-2.png)
+![Flow of concept 2](../images/taming-esortra/concept-2.jpg)
+
 ### Concept 3: Bluff
 This is a so-called shell game, based on the card game lying. In this concept at the end of every week at a predetermined time, there is a game with other players. Until that game starts, you have a week to unlock cards. You can unlock a card by completing a challenge. These challenges are linked to physical challenges. Unlocking cards can help you win the game at the end of the week. The focus of this concept is on the social part, creating a deadline, changing the focus (means to an end) and fun.
+
+![Concept 3](../images/taming-esortra/concept-3.png)
+![Flow of concept 3](../images/taming-esortra/concept-3.jpg)
 
 ### Choosing the concept
 When choosing the concept I decided against using methods like a Harris Profile or Weighted Objectives, but to focus on potential by looking at the list of insights from the research and finding the best match with the design vision. 
@@ -95,16 +116,34 @@ Having chosen a concept, I started to further develop it. This development was b
 ### Creating a narrative
 The narrative of the game was further developed based on Joseph Campbell's idea of a common template for a broad category of stories based around a hero named the Hero's Journey. I chose the template of the Hero's Journey as a basis for the narrative in the game. 
 
+![The Hero's Journey.](../images/taming-esortra/heros-journey.png)
+
 I made the idea of being chased by different personal factors into a narrative where  the overall burden of the disease is the starting point and different factors can be split of. I also decided to use an activity tracker in order to make it possible for the user to track their activity with minimum effort. By using the perspective of the user and building a user scenario, the narrative was further developed and the concept was expanded with more detail. The scenario can be found below.
+
+![Scenario](../images/taming-esortra/scenario-1.png)
+![Scenario](../images/taming-esortra/scenario-2.png)
+![Scenario](../images/taming-esortra/scenario-3.png)
+![Scenario](../images/taming-esortra/scenario-4.png)
 
 ### Prototype
 With the goal of a user test in mind, a prototype was created. I made it purposely look unfinished, but with working animations. As a first step, a flow of the design for the prototype was made into an extensive flowchart and as a Framer prototype.
+
+![A GIF of the prototype](../images/taming-esortra/esortra-walk.gif)
+
 After that the prototype was programmed to work for an iPhone, with the help of a few developers. The initial goal was to use an activity tracker to track activity, but this proved to be too difficult to achieve on time. Therefor activity was measured through the iPhone in this first iteration, which made that only walking and running could be measured.
 
 ## Evaluating the prototype
 My next step was to find out whether the goal of the design can be achieved in its current form, and in what way the effectiveness of the design can be improved. I conducted a user test in order to evaluate the effect of the design.
 
-I selected four participants. All of them were diagnosed with osteoarthritis, under the age of 70 and they had no history of surgical treatment related to osteoarthritis. The user test consisted of three parts: a first part where I visited the participants and observed the participant’s first experience with the app, a second part where the participant used the app for 15 days on their own and a final part where I interviewed the participants about the app.
+![The different parts of the user test](../images/taming-esortra/user-test.png)
+
+The user test consisted of three parts:
+
+1. A first part where I visited the participants and observed their first experience with the app.  First I installed the prototype on their phone, while the participants were asked to fill in a questionnaire about the most troubling factor related to their disease. After this I introduced Taming Esortra. The participants were then asked to open the application and where given the task to follow the assignments in the app. I asked them to think out loud during this part of the test. Once they had walked for 50 meters, they were asked to fill in a questionnaire about the experience of using the prototype.
+2. In the second part the participants used the app for 15 days on their own. On the 5th and 10th day they were asked to fill in a questionnaire about the main factors of osteoarthritis, — pain and stiffness in the joint(s) — and what other factors, activities and circumstances the participants would like to measure in order to gain additional insight and control
+3. On the last day the participants were again asked to fill in the questionnaires from the first day and I interviewed them about their experience with using the app. In this interview laddering questions were asked in order to find reasoning behind the participant’s answers.
+
+Important quotes, observations and findings about the application were transcribed on statement cards with reference to their source and clustered by problem origin. The data from the questionnaires was evaluated to find connections between use of the application and changes in control the participants feels over osteoarthritis. Important findings were identified from observations, interview and questionnaires that affect the usability and effectiveness of the design.
 
 The study resulted in eighteen important findings about the usability and effectiveness of the prototype in achieving the design goal. I clustered these findings in five categories. These findings were used to create a sample redesign and a number of recommendations on how to move forward with all the knowledge gained from this project.
 
