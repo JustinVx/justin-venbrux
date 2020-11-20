@@ -6,7 +6,7 @@ import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
 import taming from "../images/taming-home.png"
 import tamingLogo from "../images/taming-logo.png"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 const AboutPageContainer = styled.div`
   margin: 0 auto;

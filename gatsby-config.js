@@ -10,8 +10,24 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 970,
+            },
+          },
+        ],
+      },
+    },
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-sharp`, 
+    {
+      resolve: `gatsby-transformer-sharp`
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {

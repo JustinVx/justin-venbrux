@@ -9,6 +9,7 @@ import taming from "../images/taming-home.png"
 import tamingLogo from "../images/taming-logo.png"
 import genzo from "../images/genzo-home.jpg"
 import justin from "../images/black-white.jpg"
+import Img from "gatsby-image"
 
 const HeroContainer = styled.div`
   margin: 0 auto;
@@ -39,7 +40,7 @@ const Hero = styled.div`
     display: float;
     justify-content: center;
     
-    img {
+    .image {
       background-color: #fff276;
       border: solid 10px white;
       border-bottom: solid 20px white;
@@ -131,9 +132,14 @@ export default function Index({ data }) {
     <>
       <Header />
       <HeroContainer>
+      
         <Hero>
           <div className="hero-image">
-            <img src={justin} alt="Justin" width="90px"/>
+            <Img
+              className="image"
+              fixed={data.file.childImageSharp.fixed}
+              alt="Justin"
+            />
           </div>
           <div className="hero-text">
             <h1>
@@ -147,6 +153,7 @@ export default function Index({ data }) {
       </HeroContainer>
       <WorkContainer>
         <Work>
+            
           <ProjectCard 
             title="Genzō"
             description="Help healthcare professionals to provide or receive remote expertise using smartglasses."
@@ -178,22 +185,11 @@ export default function Index({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
-      edges {
-        node {
-          id
-          frontmatter {
-            date
-            title
-            type
-            description
-          }
+    file(relativePath: { eq: "images/black-white.jpg" }) {
+      childImageSharp {
+        fixed(width: 90, height: 100) {
+          ...GatsbyImageSharpFixed
         }
-      }
-    }
-    site {
-      siteMetadata {
-        title
       }
     }
   }
