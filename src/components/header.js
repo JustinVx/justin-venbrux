@@ -68,9 +68,6 @@ export default function Header() {
         <Link to={`/writing/`} activeClassName="active">
           Writing
         </Link>
-        <Link to={`/about/`} activeClassName="active">
-          About
-        </Link>
       </NavMenu>
     </NavContainer>
   )
