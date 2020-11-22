@@ -79,7 +79,7 @@ export default function Blog({ data }) {
         I write to collect and recollect what I think and read about. <span role="img" aria-label="writing hand">✍️</span>
       </AboutPage>
       <div>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
+        {data.allMdx.edges.map(({ node }) => (
           <PostContainer key={node.id}>
             <PostDate>
                 {node.frontmatter.date}
@@ -103,7 +103,7 @@ export default function Blog({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "writing"}}}) {
+    allMdx(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "writing"}}}) {
       totalCount
       edges {
         node {

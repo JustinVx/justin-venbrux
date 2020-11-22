@@ -50,7 +50,7 @@ export default function WorkIndex({ data }) {
       </AboutPageContainer>
       <WorkContainer>
         <Work>
-          {data.allMarkdownRemark.edges.map(({ node }) => (
+          {data.allMdx.edges.map(({ node }) => (
             <ProjectCard 
               key={node.id}
               title={node.frontmatter.title}
@@ -70,7 +70,7 @@ export default function WorkIndex({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "work"}}}) {
+    allMdx(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "work"}}}) {
       edges {
         node {
           id
