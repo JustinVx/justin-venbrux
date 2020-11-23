@@ -12,6 +12,7 @@ const LayoutContainer = styled.div`
 
   h1, h2, h3, h4 {
     margin-top: ${rhythm(2)};
+    margin-bottom: ${rhythm(0.6)};
   }
 `
 
