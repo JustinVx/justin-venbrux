@@ -3,9 +3,13 @@ import styled from "@emotion/styled"
 import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
 
+const HeaderContainer = styled.div`
+  background-image: linear-gradient(#f5f5f5 0%, #fff 100%);
+`
+
 const NavContainer = styled.div`
-  margin-top: ${rhythm(2)};
-  margin-bottom: ${rhythm(1.5)};
+  padding-top: ${rhythm(2)};
+  padding-bottom: ${rhythm(1.5)};
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
@@ -52,6 +56,7 @@ const NavMenu = styled.div`
 
 export default function Header() {
   return (
+    <HeaderContainer>
     <NavContainer>
       <NavTitle>
         <Link to={`/`}>
@@ -70,5 +75,6 @@ export default function Header() {
         </Link>
       </NavMenu>
     </NavContainer>
+    </HeaderContainer>
   )
 }
