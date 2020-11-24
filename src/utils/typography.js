@@ -13,7 +13,7 @@ const typography = new Typography({
     "sans-serif",
   ],
   bodyFontFamily: ["-apple-system","Open Sans", "serif"],
-  scaleRatio: 2.5,
+  scaleRatio: 2.2,
 })
 
 export default typography
