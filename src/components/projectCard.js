@@ -107,7 +107,7 @@ const ProjectCardImageContainer = styled.div`
   .thumbnail {
     max-width: 700px;
     width: 100%;
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.25);
     border-radius: 24px;
     transform: scale(0.98);
     transition: all 800ms ease;
