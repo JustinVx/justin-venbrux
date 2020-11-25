@@ -71,8 +71,8 @@ const WorkContainer = styled.div`
   padding: ${rhythm(2)};
   padding-top: ${rhythm(1.5)};
 
-  background-color: #f9f9f9;
-  color: #252733;
+  background-color: #f7f7f7;
+  color: black;
 `
 
 const Work = styled.div`

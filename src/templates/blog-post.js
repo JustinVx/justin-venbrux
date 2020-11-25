@@ -7,8 +7,13 @@ import { rhythm } from "../utils/typography"
 
 const PostContainer = styled.div`
  .gatsby-resp-image-figcaption {
-   font-size: 0.6rem;
+   font-size: 0.7rem;
    text-align: center;
+   color: #888;
+ }
+
+ .gatsby-resp-image-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 60px;
  }
 `
 
@@ -18,7 +23,7 @@ const Title = styled.h1`
 `
 
 const Subtitle = styled.div`
-  margin-bottom: ${rhythm(1)};
+  margin-bottom: ${rhythm(2)};
   text-transform: uppercase;
   font-size: 0.7rem;
   color: #888;

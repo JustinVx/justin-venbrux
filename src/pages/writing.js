@@ -76,7 +76,7 @@ export default function Blog({ data }) {
   return (
     <Layout>
       <AboutPage>
-        I write to collect and recollect what I think and read about. <span role="img" aria-label="writing hand">✍️</span>
+        I write to collect and recollect what I learn. <span role="img" aria-label="writing hand">✍️</span>
       </AboutPage>
       <div>
         {data.allMdx.edges.map(({ node }) => (
