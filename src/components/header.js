@@ -57,24 +57,24 @@ const NavMenu = styled.div`
 export default function Header() {
   return (
     <HeaderContainer>
-    <NavContainer>
-      <NavTitle>
-        <Link to={`/`}>
-          <span role="img" aria-label="light bulb">💡</span> Justin Venbrux
-        </Link>
-      </NavTitle>
-      <NavMenu>
-        <Link to={`/`} activeClassName="active">
-          Home
-        </Link>
-        <Link to={`/work/`} activeClassName="active">
-          Work
-        </Link>
-        <Link to={`/writing/`} activeClassName="active">
-          Writing
-        </Link>
-      </NavMenu>
-    </NavContainer>
+      <NavContainer>
+        <NavTitle>
+          <Link to={`/`}>
+            <span role="img" aria-label="light bulb">💡</span> Justin Venbrux
+          </Link>
+        </NavTitle>
+        <NavMenu>
+          <Link to={`/`} activeClassName="active">
+            Home
+          </Link>
+          <Link to={`/work/`} activeClassName="active">
+            Work
+          </Link>
+          <Link to={`/writing/`} activeClassName="active">
+            Writing
+          </Link>
+        </NavMenu>
+      </NavContainer>
     </HeaderContainer>
   )
 }
