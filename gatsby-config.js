@@ -21,7 +21,7 @@ module.exports = {
               maxWidth: 970,
               backgroundColor: "none",
               linkImagesToOriginal: false,
-              showCaptions: true
+              showCaptions: ['title'],
             },
           },
         ],
