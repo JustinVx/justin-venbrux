@@ -11,7 +11,7 @@ const ColumnsContainer = styled.div`
   margin-top: ${rhythm(1)};
   margin-bottom: ${rhythm(1)};
 
-  div, p, figure {
+  div, p, figure, span {
     width: 420px;
   }
 
