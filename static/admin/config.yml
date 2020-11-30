@@ -13,11 +13,11 @@ public_folder: /images
 
 collections:
   - name: "writing"
-  label: "Posts"
-  folder: "content"
-  create: true
-  slug: "{{slug}}"
-  fields:
-    - {label: "Title", name: "title", widget: "string"}
-    - {label: "Date", name: "date", widget: "date"}
-    - {label: "Type", name: "type", widget: "hidden", default: "writing"}
+    label: "Posts"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Type", name: "type", widget: "hidden", default: "writing"}
