@@ -1,10 +1,19 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import styled from "@emotion/styled"
 import { rhythm } from "../utils/typography"
+
+import HeroImage from "../components/heroImage"
+import RegularBlock from "../components/regularBlock"
+import Title from "../components/title"
+import SubTitle from "../components/subTitle"
+import IntroText from "../components/introText"
+
+const shortcodes = { HeroImage, RegularBlock, Title, SubTitle, IntroText, }
 
 const ProjectContainer = styled.div`
   display: flex;
@@ -16,14 +25,17 @@ const ProjectContainer = styled.div`
   padding-bottom: ${rhythm(2)};
 `
 
-
 export default function BlogPost({ data }) {
   const post = data.mdx
   return (
     <>
       <Header />
       <ProjectContainer>
-          <MDXRenderer>{post.body}</MDXRenderer>
+        <MDXProvider components={shortcodes}>
+          <MDXRenderer>
+            {post.body}
+          </MDXRenderer>
+        </MDXProvider>
       </ProjectContainer>
       <Footer />
     </>

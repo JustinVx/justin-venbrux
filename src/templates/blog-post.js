@@ -6,23 +6,27 @@ import styled from "@emotion/styled"
 import { rhythm } from "../utils/typography"
 
 const PostContainer = styled.div`
- .gatsby-resp-image-figcaption {
-   font-size: 0.7rem;
-   text-align: center;
-   color: #888;
- }
+  figure {
+    margin-top: ${rhythm(2)};
+  }
 
- .gatsby-resp-image-wrapper {
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 60px;
- }
+  .gatsby-resp-image-figcaption {
+    font-size: 0.7rem;
+    text-align: center;
+    color: #888;
+  }
+
+  .gatsby-resp-image-wrapper {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 60px;
+  }
 `
 
-const Title = styled.h1`
+const PostTitle = styled.h1`
   margin-bottom: ${rhythm(0.2)} !important;
   font-size: 2.7rem;
 `
 
-const Subtitle = styled.div`
+const PostSubtitle = styled.div`
   margin-bottom: ${rhythm(2)};
   text-transform: uppercase;
   font-size: 0.7rem;
@@ -34,11 +38,13 @@ export default function BlogPost({ data }) {
   return (
     <Layout>
       <PostContainer>
-        <Title>{post.frontmatter.title}</Title>
-        <Subtitle>
+        <PostTitle>{post.frontmatter.title}</PostTitle>
+        <PostSubtitle>
           {post.frontmatter.date}・{post.timeToRead} min read
-        </Subtitle>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        </PostSubtitle>
+        <MDXRenderer>
+          {post.body}
+        </MDXRenderer>
       </PostContainer>
     </Layout>
   )
