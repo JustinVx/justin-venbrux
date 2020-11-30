@@ -3,6 +3,7 @@ import styled from "@emotion/styled"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
+import SubTitle from "../components/subTitle"
 
 const AboutPage = styled.p`
   font-size: 1.4rem;
@@ -48,15 +49,6 @@ const PostTitle = styled.div`
   text-overflow: ellipsis;
 `
 
-const PostDate = styled.span`
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  color: #888;
-  background-image: none;
-
-  line-height: 0px;
-`
-
 const PostTimeToRead = styled.div`
   font-size: 0.9rem;
   opacity: 0.3;
@@ -81,9 +73,9 @@ export default function Blog({ data }) {
       <div>
         {data.allMdx.edges.map(({ node }) => (
           <PostContainer key={node.id}>
-            <PostDate>
+            <SubTitle>
                 {node.frontmatter.date}
-            </PostDate>
+            </SubTitle>
             <PostLink
               to={node.fields.slug}
             >
