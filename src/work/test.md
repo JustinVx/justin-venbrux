@@ -7,3 +7,7 @@ logo: ../images/taming-home.png
 description: Test
 ---
 Test test test
+
+
+
+![](img/img.png)
