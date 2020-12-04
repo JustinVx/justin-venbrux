@@ -14,6 +14,11 @@ const AboutPageContainer = styled.div`
   padding: ${rhythm(2)};
   padding-top: ${rhythm(1.5)};
   padding-bottom: 0;
+
+  @media(max-width:600px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 `
 
 const AboutPage = styled.p`
@@ -31,6 +36,7 @@ const WorkContainer = styled.div`
   padding: ${rhythm(2)};
   padding-top: ${rhythm(0)};
   color: #252733;
+
 `
 
 const Work = styled.div`

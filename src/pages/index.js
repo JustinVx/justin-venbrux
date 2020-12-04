@@ -30,6 +30,8 @@ const Hero = styled.div`
   .hero-text {
     font-family: "Open Sans", serif;
     text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
 
     h1 {
       margin-top: ${rhythm(1)};

@@ -56,6 +56,10 @@ const PostTimeToRead = styled.div`
   transition: transform 100ms ease-in-out;
   white-space: nowrap;
 
+  @media(max-width:600px) {
+    display: none;
+  }
+
   span {
     margin-left: 0.5em;
     display: inline-block;
