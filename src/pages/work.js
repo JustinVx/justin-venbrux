@@ -37,6 +37,10 @@ const WorkContainer = styled.div`
   padding-top: ${rhythm(0)};
   color: #252733;
 
+  @media(max-width:600px) {
+    padding-left: ${rhythm(1)};
+    padding-right: ${rhythm(1)};
+  }
 `
 
 const Work = styled.div`

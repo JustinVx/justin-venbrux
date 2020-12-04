@@ -11,6 +11,14 @@ const ProjectCardContainer = styled(Link)`
   text-decoration: none;
   color: currentColor;
 
+  @media(max-width:950px) {
+    grid-template-columns: 6fr 7fr;
+  }
+
+  @media(max-width:750px) {
+    grid-template-columns: 1fr;
+  }
+
   &:hover {
 
     .ProjectCardAction {
@@ -61,6 +69,12 @@ const ProjectCardContent = styled.div`
   background: none;
   padding: 1em 3em 2.25em 0;
   position: relative;
+
+  @media(max-width:750px) {
+    grid-row: 2;
+    margin-top: 16px;
+    padding-right: 0;
+  }
 `
 
 const ProjectCardTitle = styled.h2`

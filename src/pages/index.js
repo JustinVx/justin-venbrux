@@ -75,6 +75,11 @@ const WorkContainer = styled.div`
 
   background-color: #f7f7f7;
   color: black;
+
+  @media(max-width:600px) {
+    padding-left: ${rhythm(1)};
+    padding-right: ${rhythm(1)};
+  }
 `
 
 const Work = styled.div`

@@ -13,7 +13,7 @@ const NavContainer = styled.div`
   margin-right: auto;
   max-width: 800px;
 
-  @media(max-width:600px) {
+  @media(max-width:768px) {
     padding-top: ${rhythm(0.6)};
     padding-bottom: ${rhythm(0.6)};
   }
