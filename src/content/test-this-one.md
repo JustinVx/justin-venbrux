@@ -5,6 +5,6 @@ type: writing
 ---
 The purpose of this post is to test if Netlify CMS is working correctly.
 
-![](/img/taming-home.png)
+![](img.png)
 
 Let's see if this image is working.
