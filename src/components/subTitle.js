@@ -1,5 +1,4 @@
 import styled from "@emotion/styled"
-import { rhythm } from "../utils/typography"
 
 const SubTitle = styled.span`
   text-transform: uppercase;

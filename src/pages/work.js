@@ -4,8 +4,6 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
-import taming from "../images/taming-home.png"
-import tamingLogo from "../images/taming-logo.png"
 import { graphql } from "gatsby"
 
 const AboutPageContainer = styled.div`
