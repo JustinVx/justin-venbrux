@@ -18,7 +18,20 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "date"}
-      - {label: "Type", name: "type", widget: "hidden", default: "writing"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Type", name: "type", widget: "hidden", default: "writing" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "work"
+    label: "Projects"
+    folder: "src/work"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Type", name: "type", widget: "hidden", default: "work" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", allow_multiple: "false" }
+      - { label: "Logo", name: "logo", widget: "image", allow_multiple: "false" }
+      - { label: "Description", name: "description", widget: "string" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
