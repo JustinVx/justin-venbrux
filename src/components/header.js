@@ -8,11 +8,15 @@ const HeaderContainer = styled.div`
 `
 
 const NavContainer = styled.div`
-  padding-top: ${rhythm(2)};
-  padding-bottom: ${rhythm(1.5)};
+  padding: ${rhythm(2)} 16px ${rhythm(1.5)} 16px};
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
+
+  @media(max-width:600px) {
+    padding-top: ${rhythm(0.6)};
+    padding-bottom: ${rhythm(0.6)};
+  }
 
   font-weight: bold;
   font-size: 0.7rem;
