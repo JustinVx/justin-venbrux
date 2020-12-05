@@ -2,13 +2,13 @@
 title: Test
 date: 2020-12-04T16:46:47.633Z
 type: work
-thumbnail: ../images/taming-home.png
+thumbnail: img/img.png
 logo: ../images/taming-home.png
 description: Test
 ---
 
 <RegularBlock>
-Test test test test test test
+Test test test test test test test test test test test test test test test test test test
 
 
 
