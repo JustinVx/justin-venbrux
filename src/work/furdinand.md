@@ -40,12 +40,14 @@ For our third prototype we build a robot that could express attention with its a
 
 </RegularBlock>
 
+<Wide>
 <Gallery>
 
 ![1](../images/furdinand/nut3.jpg)
 ![1](../images/furdinand/nut3.jpg)
 ![1](../images/furdinand/nut3.jpg)
 </Gallery>
+</Wide>
 
 
 <RegularBlock>
