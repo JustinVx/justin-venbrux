@@ -1,10 +1,11 @@
 ---
-title: "Taming Esortra"
-date: "2018-09-09"
+title: Taming Esortra
+date: 2018-09-09
 type: work
-thumbnail: ../images/taming-home.png
-logo: ../images/taming-logo.png
-description: "Give osteoarthritis patients control over the burden of their disease using exercise."
+thumbnail: img/taming-home.png
+logo: img/taming-logo.png
+description: Give osteoarthritis patients control over the burden of their
+  disease using exercise.
 ---
 import IntroBlock from "../components/introBlock"
 import IntroTable from "../components/introTable"
@@ -14,15 +15,17 @@ import IntroTable from "../components/introTable"
 
 <HeroImage>
 
-![Taming Esortra](../images/taming-home.png)
+![Taming Esortra](/img/taming-home.png)
+
 </HeroImage>
 
 <Wide>
 <IntroTable>
 
-| Year | Clients | Role | 
-| :---- | ---- | ---: |
-| 2017-2018 | Delft University of Technology, Erasmus Medical Centre & 1Minuut | Individual project | 
+| Year      | Clients                                                          | Role               |
+| --------- | ---------------------------------------------------------------- | ------------------ |
+| 2017-2018 | Delft University of Technology, Erasmus Medical Centre & 1Minuut | Individual project |
+
 </IntroTable>
 </Wide>
 
@@ -33,6 +36,7 @@ How do you motivate osteoarthritis patients to exercise when this is very painfu
 <RegularBlock>
 
 ## Objective
+
 This project started at the Erasmus Medical Centre in Rotterdam. At the 18th floor of the hospital, the [Biomedical Imaging Group Rotterdam](http://www.bigr.nl/) was working on a data model to predict the development of osteoarthritis in patients.
 
 They realized that this model alone wouldn't be enough to help people diagnosed with osteoarthritis. They were looking for a way it could be used to change behavior. That is were I came in.
@@ -40,20 +44,23 @@ They realized that this model alone wouldn't be enough to help people diagnosed 
 I divided the projects into four phases: research, defining the design vision, design and evaluation.
 
 ## Research
+
 I identified four research fields: 
+
 1. living with osteoarthritis, 
 2. modern healthcare
 3. behavior change and motivation 
 4. eHealth and gamification.
 
 ### Living with osteoarthritis
+
 Osteoarthritis is a very common joint disease. It occurs when more cartilage between joints breaks down than the body can produce. With less cartilage it is harder for the joints to bend, turn or stretch easily which causes pain and stiffness.
 
-![The difference between a healthy joint and one with osteoarthritis.](../images/taming-esortra/oa.png)
+![The difference between a healthy joint and one with osteoarthritis.](img/oa.png)
 
 I held semi-structured interviews with a patient and experts in order to understand the impact osteoarthritis can have on the life of a patient. This helped me gain a lot of insights.
 
-![The hospital where I held most of the interviews. (Picture by Simon Lek)](../images/taming-esortra/erasmus-mc.jpg)
+![The hospital where I held most of the interviews. (Picture by Simon Lek)](img/erasmus-mc.jpg)
 
 Research shows that many people with osteoarthritis benefit greatly by moderate exercise such as walking or swimming. Even when this is hard or painful for them to do.
 
@@ -62,16 +69,18 @@ Meanwhile many patients and even care professionals still believe the myth that 
 I also found that effects like the unpredictability of OA and a decrease in mobility result in reduced social functioning and a reduced sense of well-being.
 
 ### Modern healthcare
+
 After looking at the impact of osteoarthritis on the life of the patient, I focused on understanding the current healthcare system and the medical model. 
 
 I found that the medical model has been very successful at curing diseases, but not at dealing with chronic disease. Mostly because there is not enough contact to help patients achieve behavioral change.
 
 ### Behavior change and motivation
+
 I deep dived into behavior research and behavior change theory, to learn how to change behavior. 
 
 In order to find out, I deep dived into behaviour research and behaviour change theory. I spent a lot of time researching the topic. With this being my thesis, I now had the opportunity to do so. I looked at anything from research on conditioning during the time of behaviorism, to theories of social cognitive theory and self-determination theory, theories about goal-directed and habitual processes, about heuristics and biases and about narrative and transportation. 
 
-![A timeline depicting the developments in research on behavior change.](../images/taming-esortra/timeline.png)
+![A timeline depicting the developments in research on behavior change.](img/timeline.png)
 
 It would be too expansive to post all of the findings from this research, but I identified four mechanisms in particular that I used for my design:
 
@@ -80,17 +89,20 @@ It would be too expansive to post all of the findings from this research, but I 
 3. *The right challenge*. Someone is most likely to succeed at a goal, when the amount of skill required for it is in good balance. Meaning it is not too easy as to cause boredom, neither is it too hard as to cause anxiety or frustration. 
 4. *The power of narrative.* Storytelling can help to motivate and support behaviour change by circumventing confirmation bias and other cognitive biases. Change in someone’s personal narrative can result in a change of attitude and behaviour.
 
-![The four core mechanisms](../images/taming-esortra/core-mechanisms.png)
+![The four core mechanisms](img/core-mechanisms.png)
 
-###  How can eHealth and persuasive game design help?
+### How can eHealth and persuasive game design help?
+
 With a better understanding about osteoarthritis, the medical model and behavior change, I decided to find out what eHealth is and what its advantages and disadvantages are. eHealth is the use of ICT for healthcare. There are two types: stand-alone eHealth and blended care. Stand-alone eHealth is used as a way to substitute traditional care, whereas blended care combines eHealth and traditional care. I identified three advantages of eHealth:
-1.  It can be given more frequently than traditional care (often even 24/7)
-2.  It is mostly cheaper than traditional healthcare
-3.  It allows for more control by the patient
+
+1. It can be given more frequently than traditional care (often even 24/7)
+2. It is mostly cheaper than traditional healthcare
+3. It allows for more control by the patient
 
 A potential way of using combining behavior change and eHealth is in persuasive game design. This is game design that aims to create a user experienced game world, which changes the user’s behavior in the real world.
 
 ## Creating a design vision
+
 After having identified valuable insights from the research phase and the four behaviour change mechanics, my next step was to establish the design vision and design goal.
 
 The original assignment of this project was to make a design that motivates osteoarthritis patients to exercise. In three steps I went from this assignment to a design vision and a resulting design goal.
@@ -101,42 +113,48 @@ The original assignment of this project was to make a design that motivates oste
 
 This results in the following design vision:
 
-![The design vision](../images/taming-esortra/design-vision.png)
+![The design vision](img/design-vision.png)
 
 And from this vision the following design goal follows:
+
 > The goal of the design is to help improve the control the patient has over osteoarthritis, by gaining insight in the burden of the disease and reducing that burden through exercise.
 
 ## Time to design
+
 Using the design goal and vision I started a period of ideation. This involved a lot of brainstorming, discussions and simple sketches. In the brainstorming I always separated divergent phases, where I came up with ideas, from convergent phases, where I judged and clustered those ideas. Eventually I came up with three concepts that were not fully developed, but developed enough to make a decision about what way to go.
 
 ### Concept 1: Motivation treasure hunt
+
 The idea behind this concept is to get motivated by starting. Every physical activity leads to a ‘motivation’ as a reward. This can be a self-recorded message, a funny cat video, encouragement by a friend or many other things. The focus of this concept is on structure, self-efficacy and variable rewards.
 
 <Gallery>
 
-![Concept 1](../images/taming-esortra/concept-1.png)
-![Flow of concept 1](../images/taming-esortra/concept-1.jpg)
+![Concept 1](img/concept-1.png)
+![Flow of concept 1](img/concept-1.jpg)
 </Gallery>
 
 ### Concept 2: Chased
+
 This concept is based on a metaphor, where you are a character in the game and you are being chased by the pain, stiffness, fatigue and other personal factors relating to your disease. By keeping track of these factors you can get an overview of everything that is bothering you and when this occurs. The focus of the concept is on treating the factors themselves (means to end), fun and on creating the right challenge.
 
 <Gallery>
 
-![Concept 2](../images/taming-esortra/concept-2.png)
-![Flow of concept 2](../images/taming-esortra/concept-2.jpg)
+![Concept 2](img/concept-2.png)
+![Flow of concept 2](img/concept-2.jpg)
 </Gallery>
 
 ### Concept 3: Bluff
+
 This is a so-called shell game, based on the card game lying. In this concept at the end of every week at a predetermined time, there is a game with other players. Until that game starts, you have a week to unlock cards. You can unlock a card by completing a challenge. These challenges are linked to physical challenges. Unlocking cards can help you win the game at the end of the week. The focus of this concept is on the social part, creating a deadline, changing the focus (means to an end) and fun.
 
 <Gallery>
 
-![Concept 3](../images/taming-esortra/concept-3.png)
-![Flow of concept 3](../images/taming-esortra/concept-3.jpg)
+![Concept 3](img/concept-3.png)
+![Flow of concept 3](img/concept-3.jpg)
 </Gallery>
 
 ### Choosing the concept
+
 When choosing the concept I decided against using methods like a Harris Profile or Weighted Objectives, but to focus on potential by looking at the list of insights from the research and finding the best match with the design vision. 
 
 I chose the second concept — chased — as the direction to move forward with. The reason for this choice was because this concept addressed most of the insights and focused more than others on the intrinsic motivation of the patients.
@@ -144,9 +162,10 @@ I chose the second concept — chased — as the direction to move forward with.
 Having chosen a concept, I started to further develop it. This development was based on the existing design vision, on more in-depth research and on discussions with the partners in the project.
 
 ### Creating a narrative
+
 The narrative of the game was further developed based on Joseph Campbell's idea of a common template for a broad category of stories based around a hero named the Hero's Journey. I chose the template of the Hero's Journey as a basis for the narrative in the game. 
 
-![The Hero's Journey.](../images/taming-esortra/heros-journey.png)
+![The Hero's Journey.](img/heros-journey.png)
 
 I made the idea of being chased by different personal factors into a narrative where  the overall burden of the disease is the starting point and different factors can be split of. I also decided to use an activity tracker in order to make it possible for the user to track their activity with minimum effort. By using the perspective of the user and building a user scenario, the narrative was further developed and the concept was expanded with more detail. The scenario can be found below.
 
@@ -154,27 +173,29 @@ I made the idea of being chased by different personal factors into a narrative w
 
 <Gallery>
 
-![Scenario](../images/taming-esortra/scenario-1.png " ")
-![Scenario](../images/taming-esortra/scenario-2.png " ")
+![Scenario](img/scenario-1.png " ")
+![Scenario](img/scenario-2.png " ")
 </Gallery>
 <Gallery>
 
-![Scenario](../images/taming-esortra/scenario-3.png)
-![Scenario](../images/taming-esortra/scenario-4.png)
+![Scenario](img/scenario-3.png)
+![Scenario](img/scenario-4.png)
 </Gallery>
 <RegularBlock>
 
 ### Prototype
+
 With the goal of a user test in mind, a prototype was created. I made it purposely look unfinished, but with working animations. As a first step, a flow of the design for the prototype was made into an extensive flowchart and as a Framer prototype.
 
-![A GIF of the prototype](../images/taming-esortra/esortra-walk.gif)
+![A GIF of the prototype](img/esortra-walk.gif)
 
 After that the prototype was programmed to work for an iPhone, with the help of a few developers. The initial goal was to use an activity tracker to track activity, but this proved to be too difficult to achieve on time. Therefor activity was measured through the iPhone in this first iteration, which made that only walking and running could be measured.
 
 ## Evaluating the prototype
+
 My next step was to find out whether the goal of the design can be achieved in its current form, and in what way the effectiveness of the design can be improved. I conducted a user test in order to evaluate the effect of the design.
 
-![The different parts of the user test](../images/taming-esortra/user-test.png)
+![The different parts of the user test](img/user-test.png)
 
 The user test consisted of three parts:
 
@@ -187,6 +208,7 @@ Important quotes, observations and findings about the application were transcrib
 The study resulted in eighteen important findings about the usability and effectiveness of the prototype in achieving the design goal. I clustered these findings in five categories. These findings were used to create a sample redesign and a number of recommendations on how to move forward with all the knowledge gained from this project.
 
 ## Future recommendations
+
 1. Make a smartwatch app the core of the design.
 2. Add an overview of factors and physical activity.
 3. Add a prediction of factors that can be shown to others.
