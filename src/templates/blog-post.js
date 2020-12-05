@@ -8,6 +8,10 @@ import { rhythm } from "../utils/typography"
 const PostContainer = styled.div`
   figure {
     margin-top: ${rhythm(2)};
+
+    .gatsby-resp-image-wrapper {
+      margin-bottom: 0;
+    }
   }
 
   .gatsby-resp-image-figcaption {
@@ -18,6 +22,7 @@ const PostContainer = styled.div`
 
   .gatsby-resp-image-wrapper {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 60px;
+    margin-bottom: ${rhythm(1)};
   }
 `
 
