@@ -110,20 +110,29 @@ Using the design goal and vision I started a period of ideation. This involved a
 ### Concept 1: Motivation treasure hunt
 The idea behind this concept is to get motivated by starting. Every physical activity leads to a ‘motivation’ as a reward. This can be a self-recorded message, a funny cat video, encouragement by a friend or many other things. The focus of this concept is on structure, self-efficacy and variable rewards.
 
+<Gallery>
+
 ![Concept 1](../images/taming-esortra/concept-1.png)
 ![Flow of concept 1](../images/taming-esortra/concept-1.jpg)
+</Gallery>
 
 ### Concept 2: Chased
 This concept is based on a metaphor, where you are a character in the game and you are being chased by the pain, stiffness, fatigue and other personal factors relating to your disease. By keeping track of these factors you can get an overview of everything that is bothering you and when this occurs. The focus of the concept is on treating the factors themselves (means to end), fun and on creating the right challenge.
 
+<Gallery>
+
 ![Concept 2](../images/taming-esortra/concept-2.png)
 ![Flow of concept 2](../images/taming-esortra/concept-2.jpg)
+</Gallery>
 
 ### Concept 3: Bluff
 This is a so-called shell game, based on the card game lying. In this concept at the end of every week at a predetermined time, there is a game with other players. Until that game starts, you have a week to unlock cards. You can unlock a card by completing a challenge. These challenges are linked to physical challenges. Unlocking cards can help you win the game at the end of the week. The focus of this concept is on the social part, creating a deadline, changing the focus (means to an end) and fun.
 
+<Gallery>
+
 ![Concept 3](../images/taming-esortra/concept-3.png)
 ![Flow of concept 3](../images/taming-esortra/concept-3.jpg)
+</Gallery>
 
 ### Choosing the concept
 When choosing the concept I decided against using methods like a Harris Profile or Weighted Objectives, but to focus on potential by looking at the list of insights from the research and finding the best match with the design vision. 
@@ -139,10 +148,19 @@ The narrative of the game was further developed based on Joseph Campbell's idea 
 
 I made the idea of being chased by different personal factors into a narrative where  the overall burden of the disease is the starting point and different factors can be split of. I also decided to use an activity tracker in order to make it possible for the user to track their activity with minimum effort. By using the perspective of the user and building a user scenario, the narrative was further developed and the concept was expanded with more detail. The scenario can be found below.
 
-![Scenario](../images/taming-esortra/scenario-1.png)
-![Scenario](../images/taming-esortra/scenario-2.png)
+</RegularBlock>
+
+<Gallery>
+
+![Scenario](../images/taming-esortra/scenario-1.png " ")
+![Scenario](../images/taming-esortra/scenario-2.png " ")
+</Gallery>
+<Gallery>
+
 ![Scenario](../images/taming-esortra/scenario-3.png)
 ![Scenario](../images/taming-esortra/scenario-4.png)
+</Gallery>
+<RegularBlock>
 
 ### Prototype
 With the goal of a user test in mind, a prototype was created. I made it purposely look unfinished, but with working animations. As a first step, a flow of the design for the prototype was made into an extensive flowchart and as a Framer prototype.
@@ -179,11 +197,3 @@ The study resulted in eighteen important findings about the usability and effect
 10. Test when to measure and what to measure.
 
 </RegularBlock>
-
-<TwoColumnBlock>
-<div>
-Osteoarthritis is a very common joint disease. It occurs when more cartilage between joints breaks down than the body can produce. With less cartilage it is harder for the joints to bend, turn or stretch easily which causes pain and stiffness.
-</div>
-
-![The difference between a healthy joint and one with osteoarthritis.](../images/taming-esortra/oa.png)
-</TwoColumnBlock>
