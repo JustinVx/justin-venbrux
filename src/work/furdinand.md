@@ -6,13 +6,6 @@ thumbnail: ../images/furdinand-home.png
 logo: ../images/furdinand-logo.png
 description: "A needy robot that can't stop loving."
 ---
-import HeroImage from "../components/heroImage"
-import RegularBlock from "../components/regularBlock"
-import Title from "../components/title"
-import SubTitle from "../components/subTitle"
-import IntroText from "../components/introText"
-
-
 <Title>Furdinand</Title>
 <SubTitle>TU Delft - 2016</SubTitle>
 
@@ -47,19 +40,25 @@ For our third prototype we build a robot that could express attention with its a
 
 </RegularBlock>
 
-<TwoColumnBlock>
+<Gallery>
 
-![1](../images/furdinand/nut1.jpg)
-![2](../images/furdinand/nut2.jpg)
-</TwoColumnBlock>
+![1](../images/furdinand/nut3.jpg)
+![1](../images/furdinand/nut3.jpg)
+![1](../images/furdinand/nut3.jpg)
+</Gallery>
 
 
 <RegularBlock>
-<TwoColumnBlock>
+
+<Gallery>
 
 ![3](../images/furdinand/nut3.jpg)
 ![4](../images/furdinand/nut4.jpg)
-</TwoColumnBlock>
+![4](../images/furdinand/nut4.jpg)
+![3](../images/furdinand/nut3.jpg)
+![3](../images/furdinand/nut3.jpg)
+![4](../images/furdinand/nut4.jpg)
+</Gallery>
 
 ## Prototype 4: Furdinand
 What we noticed during the third prototype was that people sat down with the robot to interact with it. We used this for our final robot and made it bigger and able to move its arms in three dimensions so it could really hug someone. We also expanded the interaction to have five different phases, based on the distance to the robot and whether or not it had grabbed anything. We presented Furdinand at a fair and the reactions were even more positive than we expected. People asked if they could take Furdinand home.

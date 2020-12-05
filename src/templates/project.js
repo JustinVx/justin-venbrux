@@ -12,8 +12,9 @@ import RegularBlock from "../components/regularBlock"
 import Title from "../components/title"
 import SubTitle from "../components/subTitle"
 import IntroText from "../components/introText"
+import Gallery from "../components/gallery"
 
-const shortcodes = { HeroImage, RegularBlock, Title, SubTitle, IntroText, }
+const shortcodes = { HeroImage, RegularBlock, Title, SubTitle, IntroText, Gallery }
 
 const ProjectContainer = styled.div`
   display: flex;
