@@ -6,6 +6,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `images`,
+        path: `${__dirname}/static/img/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `src`,
         path: `${__dirname}/src/`,
       },
@@ -21,6 +28,7 @@ module.exports = {
             options: {
               maxWidth: 970,
               backgroundColor: "none",
+              tracedSVG: true,
               linkImagesToOriginal: false,
               showCaptions: ['title'],
             },
