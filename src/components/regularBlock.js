@@ -10,12 +10,17 @@ const RegularBlock = styled.div`
     margin-bottom: ${rhythm(0.6)};
   }
 
-  .gatsby-resp-image-figure {
+  .gatsby-resp-image-wrapper {
+    box-shadow: 0px 0px 2px #f5f5f5;
     margin-bottom: ${rhythm(1.5)};
   }
 
-  .gatsby-resp-image-wrapper {
-    box-shadow: 0px 0px 2px #f5f5f5;
+  figure {
+    margin-bottom: ${rhythm(1.5)};
+
+    .gatsby-resp-image-wrapper {
+      margin-bottom: 0;
+    }
   }
 
   .gatsby-resp-image-figcaption {
