@@ -33,7 +33,7 @@ With this idea in mind, we all started crafting different little prototypes of n
 ## Prototype 2: Arnold.
 While building the second prototype — which we named Arnold — we focused on incorporating electronics and coming up with a story and different mechanisms around the interaction. We focused mainly on the two expressions we wanted to convey. The first one was the expression of being scared to be alone. This is when someone is in the vicinity, but not very close. At this point Arnold starts shaking. When somebody comes closer to Arnold he starts to relax and the shaking changes into a relaxed pulse.
 
-![A collage of different prototypes we built](../images/furdinand/collage.jpg)
+![A collage of different prototypes we built](img/collage.jpg)
 
 ## Prototype 3: Cracking the nut.
 For our third prototype we build a robot that could express attention with its arms and hug someone’s leg when it was close. We also made it fluffy to make it more appealing for people to come up to and we introduced the concept of waving arms to lure people towards it.

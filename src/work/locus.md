@@ -1,6 +1,6 @@
 ---
 title: Locus
-date: 2019-05-08T11:13:32.851Z
+date: 2015-06-08T11:13:32.851Z
 type: work
 thumbnail: img/locus-home.png
 logo: img/locus-logo.png
