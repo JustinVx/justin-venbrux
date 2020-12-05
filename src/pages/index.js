@@ -163,17 +163,17 @@ export default function Index({ data }) {
             
           <ProjectCard 
             title="Genzō"
-            description="Help healthcare professionals to provide or receive remote expertise using smartglasses."
+            description="A platform that helps healthcare professionals receive remote expertise using smartglasses."
             thumbnail={genzo}
             logo={justin}
             file="/about/"
           />
           <ProjectCard 
             title="Taming Esortra"
-            description="Give osteoarthritis patients control over their disease using exercise."
+            description="A persuasive game that helps to give osteoarthritis patients control over their disease using exercise."
             thumbnail={taming}
             logo={tamingLogo}
-            file="/taming-esortra/"
+            file="/work/taming-esortra/"
           />
           <WorkButtonContainer>
             <WorkButton to={'/work/'}>
@@ -192,9 +192,9 @@ export default function Index({ data }) {
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "images/black-white.jpg" }) {
+    file(relativePath: { eq: "images/justin.jpg" }) {
       childImageSharp {
-        fixed(width: 90, height: 100) {
+        fixed(width: 100, height: 100) {
           ...GatsbyImageSharpFixed
         }
       }

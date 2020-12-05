@@ -7,28 +7,30 @@ logo: ../images/taming-logo.png
 description: "Give osteoarthritis patients control over the burden of their disease using exercise."
 ---
 import IntroBlock from "../components/introBlock"
-import TwoColumnBlock from "../components/twoColumnBlock"
+import IntroTable from "../components/introTable"
 
 <Title>Taming Esorta</Title>
 <SubTitle>Graduation Project - 2018-2019</SubTitle>
+
 <HeroImage>
 
 ![Taming Esortra](../images/taming-home.png)
 </HeroImage>
+
+<Wide>
+<IntroTable>
+
+| Year | Clients | Role | 
+| :---- | ---- | ---: |
+| 2017-2018 | Delft University of Technology, Erasmus Medical Centre & 1Minuut | Individual project | 
+</IntroTable>
+</Wide>
 
 <IntroText>
 How do you motivate osteoarthritis patients to exercise when this is very painful for them? For my graduation project I worked on a way to solve this question. The result is Taming Esortra — a persuasive game that helps people with osteoarthritis to reduce and gain control over the burden of their disease.
 </IntroText>
 
 <RegularBlock>
-
-| Year | Involved parties | My role |
-| :---- | ---- | ---: |
-| 2017-2018 | TU Delft, Erasmus MC, 1Minuut | ... |
-
-| Skills |
-| :----: |
-| User research, Interviewing, Literature research, Storyboarding, Creative problem solving, Prototyping (Framer), Handoff to developers, Usability testing |
 
 ## Objective
 This project started at the Erasmus Medical Centre in Rotterdam. At the 18th floor of the hospital, the [Biomedical Imaging Group Rotterdam](http://www.bigr.nl/) was working on a data model to predict the development of osteoarthritis in patients.
