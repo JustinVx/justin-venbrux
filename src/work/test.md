@@ -6,8 +6,12 @@ thumbnail: ../images/taming-home.png
 logo: ../images/taming-home.png
 description: Test
 ---
-Test test test
+
+<RegularBlock>
+Test test test test test test
 
 
 
 ![](img/img.png)
+
+</RegularBlock>

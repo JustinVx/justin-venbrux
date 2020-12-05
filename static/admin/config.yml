@@ -17,8 +17,8 @@ collections:
     folder: "src/content"
     create: true
     slug: "{{slug}}"
-    media_folder: "/img"
-    public_folder: "/img"
+    media_folder: "img"
+    public_folder: "img"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }
