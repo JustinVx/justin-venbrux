@@ -4,7 +4,7 @@ const Gallery = styled.div`
   width: 100%;
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 
   .gatsby-resp-image-wrapper {
     width: 100%;
