@@ -1,6 +1,6 @@
 ---
 title: Taming Esortra
-date: 2018-09-09
+date: 2018-10-09
 type: work
 thumbnail: img/taming-home.png
 logo: img/taming-logo.png
@@ -169,13 +169,13 @@ I made the idea of being chased by different personal factors into a narrative w
 
 <Gallery>
 
-![Scenario](img/scenario-1.png " ")
-![Scenario](img/scenario-2.png " ")
+![Part 1 of the scenario](img/scenario-1.png " ")
+![Part 2 of the scenario](img/scenario-2.png " ")
 </Gallery>
 <Gallery>
 
-![Scenario](img/scenario-3.png)
-![Scenario](img/scenario-4.png)
+![Part 3 of the scenario](img/scenario-3.png)
+![Part 4 of the scenario](img/scenario-4.png)
 </Gallery>
 <RegularBlock>
 
