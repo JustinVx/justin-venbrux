@@ -6,7 +6,7 @@ const RegularBlock = styled.div`
   padding: 0px 16px;
 
   h1, h2, h3, h4 {
-    margin-top: ${rhythm(2)};
+    margin-top: ${rhythm(3)};
     margin-bottom: ${rhythm(0.6)};
   }
 
