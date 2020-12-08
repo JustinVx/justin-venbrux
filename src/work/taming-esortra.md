@@ -41,38 +41,34 @@ This project started at the Erasmus Medical Centre in Rotterdam. At the 18th flo
 
 They realized that this model alone wouldn't be enough to help people diagnosed with osteoarthritis. They were looking for a way it could be used to change behavior. That is were I came in.
 
-I divided the projects into four phases: research, defining the design vision, design and evaluation.
+## Phase 1: Research
 
-## Research
+I started by deciding what I wanted to know about the subject. Considering this was part of my graduation thesis, I could do this extensively. I identified the following four research fields:
 
-I identified four research fields: 
-
-1. living with osteoarthritis, 
-2. modern healthcare
-3. behavior change and motivation 
-4. eHealth and gamification.
+1. Living with osteoarthritis 
+2. Modern healthcare
+3. Behavior change and motivation 
+4. eHealth and gamification
 
 ### Living with osteoarthritis
 
 Osteoarthritis is a very common joint disease. It occurs when more cartilage between joints breaks down than the body can produce. With less cartilage it is harder for the joints to bend, turn or stretch easily which causes pain and stiffness.
 
-![The difference between a healthy joint and one with osteoarthritis.](img/oa.png)
+![The difference between a healthy joint and one with osteoarthritis.](img/oa.png "The difference between a healthy joint and one with osteoarthritis")
 
-I held semi-structured interviews with a patient and experts in order to understand the impact osteoarthritis can have on the life of a patient. This helped me gain a lot of insights.
+I signed up for a support group, interviewed a patient and a number of experts in order to understand the impact osteoarthritis can have on the life of a patient. The interviews were held using a semi-structured approach and transcribed afterwards. 
 
-![The hospital where I held most of the interviews. (Picture by Simon Lek)](img/erasmus-mc.jpg)
+After doing this I realised osteoarthritis is often life changing — and not in a good way. The symptoms of pain and decrease in mobility often result in reduced social functioning and a reduced sense of well-being.
 
-Research shows that many people with osteoarthritis benefit greatly by moderate exercise such as walking or swimming. Even when this is hard or painful for them to do.
+![Erasmus MC building](img/erasmus-mc.jpg "The hospital where I held most of the interviews (Picture by Simon Lek)")
 
-Meanwhile many patients and even care professionals still believe the myth that osteoarthritis is caused by wear and tear of the joints. This causes patients to exercise less. 
-
-I also found that effects like the unpredictability of OA and a decrease in mobility result in reduced social functioning and a reduced sense of well-being.
+Research shows that many people with osteoarthritis benefit greatly by moderate exercise such as walking or swimming. Even when this is hard or painful for them to do. Meanwhile many patients and even care professionals still believe the myth that osteoarthritis is caused by wear and tear of the joints, which causes patients to exercise less.
 
 ### Modern healthcare
 
-After looking at the impact of osteoarthritis on the life of the patient, I focused on understanding the current healthcare system and the medical model. 
+After looking at the impact of osteoarthritis on the life of the patient, I focused on understanding the broader perspective of the current healthcare system and the medical model. 
 
-I found that the medical model has been very successful at curing diseases, but not at dealing with chronic disease. Mostly because there is not enough contact to help patients achieve behavioral change.
+I found that the medical model has been very successful at curing diseases, but not at dealing with chronic disease. Mostly because there is not enough contact to help patients achieve behavioral change. The question then is: how can you help patients change their behaviour?
 
 ### Behavior change and motivation
 
@@ -80,7 +76,7 @@ I deep dived into behavior research and behavior change theory, to learn how to 
 
 In order to find out, I deep dived into behaviour research and behaviour change theory. I spent a lot of time researching the topic. With this being my thesis, I now had the opportunity to do so. I looked at anything from research on conditioning during the time of behaviorism, to theories of social cognitive theory and self-determination theory, theories about goal-directed and habitual processes, about heuristics and biases and about narrative and transportation. 
 
-![A timeline depicting the developments in research on behavior change.](img/timeline.png)
+![A timeline depicting the developments in research on behavior change.](img/timeline.png "A timeline of the developments in research on behavior change")
 
 It would be too expansive to post all of the findings from this research, but I identified four mechanisms in particular that I used for my design:
 
@@ -89,19 +85,19 @@ It would be too expansive to post all of the findings from this research, but I 
 3. *The right challenge*. Someone is most likely to succeed at a goal, when the amount of skill required for it is in good balance. Meaning it is not too easy as to cause boredom, neither is it too hard as to cause anxiety or frustration. 
 4. *The power of narrative.* Storytelling can help to motivate and support behaviour change by circumventing confirmation bias and other cognitive biases. Change in someone’s personal narrative can result in a change of attitude and behaviour.
 
-![The four core mechanisms](img/core-mechanisms.png)
+![The four core mechanisms](img/core-mechanisms.png "The four core mechanisms")
 
 ### How can eHealth and persuasive game design help?
 
-With a better understanding about osteoarthritis, the medical model and behavior change, I decided to find out what eHealth is and what its advantages and disadvantages are. eHealth is the use of ICT for healthcare. There are two types: stand-alone eHealth and blended care. Stand-alone eHealth is used as a way to substitute traditional care, whereas blended care combines eHealth and traditional care. I identified three advantages of eHealth:
+With a better understanding about osteoarthritis, the medical model and behavior change, I decided to learn about eHealth and what its advantages and disadvantages are. eHealth is the use of IT for healthcare. There are two types: stand-alone eHealth and blended care. Stand-alone eHealth is used as a way to substitute traditional care, whereas blended care combines eHealth and traditional care. I identified three advantages of eHealth:
 
 1. It can be given more frequently than traditional care (often even 24/7)
-2. It is mostly cheaper than traditional healthcare
+2. It is mostly cheaper compared to traditional healthcare
 3. It allows for more control by the patient
 
-A potential way of using combining behavior change and eHealth is in persuasive game design. This is game design that aims to create a user experienced game world, which changes the user’s behavior in the real world.
+A potential way of combining behavior change and eHealth is in persuasive game design. This is game design that aims to create a user experienced game world, which changes the user’s behavior in the real world.
 
-## Creating a design vision
+## Phase 2: Creating a design vision
 
 After having identified valuable insights from the research phase and the four behaviour change mechanics, my next step was to establish the design vision and design goal.
 
@@ -113,13 +109,13 @@ The original assignment of this project was to make a design that motivates oste
 
 This results in the following design vision:
 
-![The design vision](img/design-vision.png)
+![The design vision](img/design-vision.png "The design vision")
 
 And from this vision the following design goal follows:
 
 > The goal of the design is to help improve the control the patient has over osteoarthritis, by gaining insight in the burden of the disease and reducing that burden through exercise.
 
-## Time to design
+## Phase 3: Design
 
 Using the design goal and vision I started a period of ideation. This involved a lot of brainstorming, discussions and simple sketches. In the brainstorming I always separated divergent phases, where I came up with ideas, from convergent phases, where I judged and clustered those ideas. Eventually I came up with three concepts that were not fully developed, but developed enough to make a decision about what way to go.
 
@@ -153,7 +149,7 @@ This is a so-called shell game, based on the card game lying. In this concept at
 ![Flow of concept 3](img/concept-3.jpg)
 </Gallery>
 
-### Choosing the concept
+### Deciding on a concept
 
 When choosing the concept I decided against using methods like a Harris Profile or Weighted Objectives, but to focus on potential by looking at the list of insights from the research and finding the best match with the design vision. 
 
@@ -167,7 +163,7 @@ The narrative of the game was further developed based on Joseph Campbell's idea 
 
 ![The Hero's Journey.](img/heros-journey.png)
 
-I made the idea of being chased by different personal factors into a narrative where  the overall burden of the disease is the starting point and different factors can be split of. I also decided to use an activity tracker in order to make it possible for the user to track their activity with minimum effort. By using the perspective of the user and building a user scenario, the narrative was further developed and the concept was expanded with more detail. The scenario can be found below.
+I made the idea of being chased by different personal factors into a narrative where the overall burden of the disease is the starting point and different factors can be split of. I also decided to use an activity tracker in order to make it possible for the user to track their activity with minimum effort. By using the perspective of the user and building a user scenario, the narrative was further developed and the concept was expanded with more detail. The scenario can be found below.
 
 </RegularBlock>
 
@@ -189,7 +185,7 @@ With the goal of a user test in mind, a prototype was created. I made it purpose
 
 ![A GIF of the prototype](img/esortra-walk.gif)
 
-After that the prototype was programmed to work for an iPhone, with the help of a few developers. The initial goal was to use an activity tracker to track activity, but this proved to be too difficult to achieve on time. Therefor activity was measured through the iPhone in this first iteration, which made that only walking and running could be measured.
+After that the prototype was programmed to work for an iPhone, with the help of a few developers. The initial goal was to use an activity tracker to track activity, but this proved not to be possible due to time constraints. Therefor activity was measured through the iPhone in this first iteration, which made that only walking and running could be measured.
 
 ## Evaluating the prototype
 
@@ -199,7 +195,7 @@ My next step was to find out whether the goal of the design can be achieved in i
 
 The user test consisted of three parts:
 
-1. A first part where I visited the participants and observed their first experience with the app.  First I installed the prototype on their phone, while the participants were asked to fill in a questionnaire about the most troubling factor related to their disease. After this I introduced Taming Esortra. The participants were then asked to open the application and where given the task to follow the assignments in the app. I asked them to think out loud during this part of the test. Once they had walked for 50 meters, they were asked to fill in a questionnaire about the experience of using the prototype.
+1. A first part where I visited the participants and observed their first experience with the app. First I installed the prototype on their phones, while the participants were asked to fill in a questionnaire about the most troubling factor related to their disease. After this I introduced Taming Esortra. The participants were then asked to open the application and where given the task to follow the assignments in the app. I asked them to think out loud during this part of the test. Once they had walked for 50 meters, they were asked to fill in a questionnaire about the experience of using the prototype.
 2. In the second part the participants used the app for 15 days on their own. On the 5th and 10th day they were asked to fill in a questionnaire about the main factors of osteoarthritis, — pain and stiffness in the joint(s) — and what other factors, activities and circumstances the participants would like to measure in order to gain additional insight and control
 3. On the last day the participants were again asked to fill in the questionnaires from the first day and I interviewed them about their experience with using the app. In this interview laddering questions were asked in order to find reasoning behind the participant’s answers.
 
