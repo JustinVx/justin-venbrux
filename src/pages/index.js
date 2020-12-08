@@ -5,10 +5,6 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
-import taming from "../images/taming-home.png"
-import tamingLogo from "../images/taming-logo.png"
-import genzo from "../images/genzo-home.jpg"
-import justin from "../images/black-white.jpg"
 import Img from "gatsby-image"
 
 const HeroContainer = styled.div`
@@ -160,21 +156,16 @@ export default function Index({ data }) {
       </HeroContainer>
       <WorkContainer>
         <Work>
-            
-          <ProjectCard 
-            title="Genzō"
-            description="A platform that helps healthcare professionals receive remote expertise using smartglasses."
-            thumbnail={genzo}
-            logo={justin}
-            file="/about/"
-          />
-          <ProjectCard 
-            title="Taming Esortra"
-            description="A persuasive game that helps to give osteoarthritis patients control over their disease using exercise."
-            thumbnail={taming}
-            logo={tamingLogo}
-            file="/work/taming-esortra/"
-          />
+          {data.allMdx.edges.map(({ node }) => (
+            <ProjectCard 
+              key={node.id}
+              title={node.frontmatter.title}
+              description={node.frontmatter.description}
+              thumbnail={node.frontmatter.thumbnail.publicURL}
+              logo={node.frontmatter.logo.publicURL}
+              file={node.fields.slug}
+            />
+          ))}
           <WorkButtonContainer>
             <WorkButton to={'/work/'}>
               See more work <span>&#8594;</span>
@@ -192,6 +183,29 @@ export default function Index({ data }) {
 
 export const query = graphql`
   query {
+    allMdx(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "work"}, featured: {eq: true}}}) {
+      edges {
+        node {
+          id
+          frontmatter {
+            date
+            title
+            type
+            description
+            featured
+            thumbnail {
+              publicURL
+            }
+            logo {
+              publicURL
+            }
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
     file(relativePath: { eq: "images/justin.jpg" }) {
       childImageSharp {
         fixed(width: 100, height: 100) {

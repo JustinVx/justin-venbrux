@@ -4,6 +4,7 @@ date: 2018-10-09
 type: work
 thumbnail: img/taming-home.png
 logo: img/taming-logo.png
+featured: true
 description: Give osteoarthritis patients control over the burden of their
   disease using exercise.
 ---

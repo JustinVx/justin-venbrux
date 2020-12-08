@@ -35,7 +35,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Type", name: "type", widget: "hidden", default: "work" }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", allow_multiple: false }
+      - { label: "Featured image", name: "thumbnail", widget: "image", allow_multiple: false }
       - { label: "Logo", name: "logo", widget: "image", allow_multiple: false }
       - { label: "Description", name: "description", widget: "string" }
+      - { label: "Show on homepage", name: "featured", widget: "boolean" }
       - { label: 'Body', name: 'body', widget: 'markdown' }

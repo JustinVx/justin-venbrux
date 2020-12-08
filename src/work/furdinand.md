@@ -4,6 +4,7 @@ date: 2016-09-09
 type: work
 thumbnail: img/furdinand-home.png
 logo: img/furdinand-logo.png
+featured: false
 description: A needy robot that can't stop loving.
 ---
 import EmbedVideo from "../components/embedVideo"

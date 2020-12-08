@@ -4,6 +4,7 @@ date: 2015-06-08T11:13:32.851Z
 type: work
 thumbnail: img/locus-home.png
 logo: img/locus-logo.png
+featured: false
 description: A navigation app that helps outdoor enthusiasts to plan, to finish
   and to relive their perfect route.
 ---
