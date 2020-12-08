@@ -7,9 +7,12 @@ logo: img/locus-logo.png
 description: A navigation app that helps outdoor enthusiasts to plan, to finish
   and to relive their perfect route.
 ---
+<Title>Locus</Title>
+<SubTitle>TU Delft - 2015 & 2019</SubTitle>
+
 <HeroImage>
 
-![Hand holding a Samsung phone with Locus app open](img/locus-home.png)
+![A hovering iPhone with the 2019 Locus app opened](img/locus-2019-hover.png)
 
 </HeroImage>
 
@@ -57,22 +60,22 @@ One of the main problems concerns the hierarchy and structure of the application
 
 Instead of only looking at what happens when using the app and what goes wrong, I proposed that we should also look into **why** people use the app. The main reason people use this app and not for instance Google Maps, is that they want to hike, bike or sail a nice route (and not necessarily the fastest route). During our redesign this was something that we focused on and really helped our design.
 
+> It is not about finding the fastest route. It is about finding the nicest route.
+
 ![Beautiful scenery of a mountain](img/epiphany.jpg)
 
-> It is not about finding the fastest route. It is about finding the nicest route.
 
 ## How to structure the new design?
 
 We identified that the outdoor experience and interaction with the app consists of three phases: preparation, journey and post journey. In the preparation phase the user creates a route. During the journey the user will have access to all the tools he/she would need on the road, like record track, current location, nearby points, camera, search and navigate. After the journey the user has the ability to evaluate and share the route and data.
 
+![Preparation, journey and post-journey](img/3stages.png "The three stages")
+
 In the preparation phase the user wants to set a route. To set a route four things are needed: the activity, a map that meets the users need of information, points the user wants to pass by and finally a route between all these points. Because these four steps are always necessary for creating a route the new interface will guide the user through these four steps. This makes it easier for beginning hikers to create a route and expert hikers will have a good overview. These steps should be guiding and not forcing. The user needs to have the possibility to go back and have an overview.
 
-<Gallery>
-
-![Preparation, journey and post-journey](img/3stages.png "The three stages")
 ![Route, points, maps, activity](img/4layers.png "The four layers of preparation")
-</Gallery>
 
+</RegularBlock>
 <Gallery>
 
 ![First UI redesign of menu](img/a1screen.png)
@@ -81,7 +84,7 @@ In the preparation phase the user wants to set a route. To set a route four thin
 ![First UI redesign of point setting](img/a4screen.png)
 
 </Gallery>
-"Screenshots of the first redesign."
+<RegularBlock>
 
 ## What can be improved based on the first redesign?
 
@@ -95,12 +98,16 @@ We tested our redesign through paper prototypes with twelve participants. The pa
 
 ![From the home screen you can access the menu, set activity, add/edit point on route, change the map, record your track, display points of interest and take a photo](img/finaldesign.png)
 
+</RegularBlock>
+<Wide>
 <Gallery>
 
 ![Second UI redesign of map](img/screens-05.png)
 ![Second UI redesign of menu](img/screens-06.png)
-![Second UI redesign of picking activity](img/screens-06.png)
+![Second UI redesign of picking activity](img/screens-07.png)
 </Gallery>
+</Wide>
+<RegularBlock>
 
 ## How can the design be upgraded for 2019?
 
@@ -115,9 +122,8 @@ Four years later I decided to do a simple redesign of the app. In this design I 
 ![2019 UI redesign of picking activity](img/locus-2019-3.png)
 </Gallery>
 </Wide>
-
 <RegularBlock>
 
-![A hovering iPhone with the 2019 Locus app opened](/locus-2019-hover.png)
+![A hovering iPhone with the 2019 Locus app opened](img/locus-2019-hover.png)
 
 </RegularBlock>
