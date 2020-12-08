@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 import SubTitle from "../components/subTitle"
+import SEO from "../components/seo"
 
 const AboutPage = styled.p`
   font-size: 1.4rem;
@@ -71,6 +72,7 @@ export default function Blog({ data }) {
   console.log(data)
   return (
     <Layout>
+      <SEO title="Writing" />
       <AboutPage>
         I write to collect and recollect what I learn. <span role="img" aria-label="writing hand">✍️</span>
       </AboutPage>

@@ -1,8 +1,23 @@
 module.exports = {
   siteMetadata: {
     title: `Justin Venbrux`,
+    description: `My name is Justin Venbrux. I am Product Designer who likes to create cool things that help people.`,
+    author: `Justin Venbrux`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Justin Venbrux`,
+        short_name: `Justin`,
+        start_url: `/`,
+        background_color: `#ff7676`,
+        theme_color: `#ff7676`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

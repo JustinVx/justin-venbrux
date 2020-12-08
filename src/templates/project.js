@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import styled from "@emotion/styled"
 import { rhythm } from "../utils/typography"
+import SEO from "../components/seo"
 
 import HeroImage from "../components/heroImage"
 import RegularBlock from "../components/regularBlock"
@@ -31,6 +32,7 @@ export default function BlogPost({ data }) {
   const post = data.mdx
   return (
     <>
+      <SEO title={post.frontmatter.title} description={post.frontmatter.description} />
       <Header />
       <ProjectContainer>
         <MDXProvider components={shortcodes}>

@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import styled from "@emotion/styled"
 import { rhythm } from "../utils/typography"
+import SEO from "../components/seo"
 
 const PostContainer = styled.div`
   figure {
@@ -42,6 +43,7 @@ export default function BlogPost({ data }) {
   const post = data.mdx
   return (
     <Layout>
+      <SEO title={post.frontmatter.title} description={post.excerpt}/>
       <PostContainer>
         <PostTitle>{post.frontmatter.title}</PostTitle>
         <PostSubtitle>
@@ -64,6 +66,7 @@ export const query = graphql`
         date(formatString: "DD MMM YYYY")
       }
       timeToRead
+      excerpt
     }
   }
 `

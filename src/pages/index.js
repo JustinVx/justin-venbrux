@@ -6,6 +6,7 @@ import Footer from "../components/footer"
 import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
 import Img from "gatsby-image"
+import SEO from "../components/seo"
 
 const HeroContainer = styled.div`
   margin: 0 auto;
@@ -133,6 +134,7 @@ const WorkButton = styled(Link)`
 export default function Index({ data }) {
   return (
     <>
+      <SEO title="Home" />
       <Header />
       <HeroContainer>
       

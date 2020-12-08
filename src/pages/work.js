@@ -5,6 +5,7 @@ import Footer from "../components/footer"
 import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
 import { graphql } from "gatsby"
+import SEO from "../components/seo"
 
 const AboutPageContainer = styled.div`
   margin: 0 auto;
@@ -49,7 +50,8 @@ const Work = styled.div`
 
 export default function WorkIndex({ data }) {
   return (
-      <>
+    <>
+      <SEO title="Work" />
       <Header />
       <AboutPageContainer>
         <AboutPage>
