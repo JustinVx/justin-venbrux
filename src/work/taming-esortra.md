@@ -119,35 +119,43 @@ And from this vision the following design goal follows:
 
 Using the design goal and vision I started a period of ideation. This involved a lot of brainstorming, discussions and simple sketches. In the brainstorming I always separated divergent phases, where I came up with ideas, from convergent phases, where I judged and clustered those ideas. Eventually I came up with three concepts that were not fully developed, but developed enough to make a decision about what way to go.
 
-### Concept 1: Motivation treasure hunt
-
-The idea behind this concept is to get motivated by starting. Every physical activity leads to a ‘motivation’ as a reward. This can be a self-recorded message, a funny cat video, encouragement by a friend or many other things. The focus of this concept is on structure, self-efficacy and variable rewards.
 
 <Gallery>
+<div>
+
+### Concept 1: Motivation treasure hunt
+The idea behind this concept is to get motivated by starting. Every physical activity leads to a ‘motivation’ as a reward. This can be a self-recorded message, a funny cat video, encouragement by a friend or many other things. The focus of this concept is on structure, self-efficacy and variable rewards.
+</div>
 
 ![Concept 1](img/concept-1.png)
-![Flow of concept 1](img/concept-1.jpg)
 </Gallery>
+
+![Flow of concept 1](img/concept-1.jpg)
+
+<Gallery>
+<div>
 
 ### Concept 2: Chased
-
 This concept is based on a metaphor, where you are a character in the game and you are being chased by the pain, stiffness, fatigue and other personal factors relating to your disease. By keeping track of these factors you can get an overview of everything that is bothering you and when this occurs. The focus of the concept is on treating the factors themselves (means to end), fun and on creating the right challenge.
-
-<Gallery>
+</div>
 
 ![Concept 2](img/concept-2.png)
-![Flow of concept 2](img/concept-2.jpg)
 </Gallery>
 
-### Concept 3: Bluff
-
-This is a so-called shell game, based on the card game lying. In this concept at the end of every week at a predetermined time, there is a game with other players. Until that game starts, you have a week to unlock cards. You can unlock a card by completing a challenge. These challenges are linked to physical challenges. Unlocking cards can help you win the game at the end of the week. The focus of this concept is on the social part, creating a deadline, changing the focus (means to an end) and fun.
+![Flow of concept 2](img/concept-2.jpg)
 
 <Gallery>
+<div>
+
+### Concept 3: Bluff
+This is a so-called shell game, based on the card game lying. In this concept at the end of every week at a predetermined time, there is a game with other players. Until that game starts, you have a week to unlock cards. You can unlock a card by completing a challenge. These challenges are linked to physical challenges. Unlocking cards can help you win the game at the end of the week. The focus of this concept is on the social part, creating a deadline, changing the focus (means to an end) and fun.
+</div>
 
 ![Concept 3](img/concept-3.png)
-![Flow of concept 3](img/concept-3.jpg)
 </Gallery>
+
+![Flow of concept 3](img/concept-3.jpg)
+
 
 ### Deciding on a concept
 
@@ -187,7 +195,7 @@ With the goal of a user test in mind, a prototype was created. I made it purpose
 
 After that the prototype was programmed to work for an iPhone, with the help of a few developers. The initial goal was to use an activity tracker to track activity, but this proved not to be possible due to time constraints. Therefor activity was measured through the iPhone in this first iteration, which made that only walking and running could be measured.
 
-## Evaluating the prototype
+## Phase 4: Evaluating the prototype
 
 My next step was to find out whether the goal of the design can be achieved in its current form, and in what way the effectiveness of the design can be improved. I conducted a user test in order to evaluate the effect of the design.
 
@@ -201,9 +209,10 @@ The user test consisted of three parts:
 
 Important quotes, observations and findings about the application were transcribed on statement cards with reference to their source and clustered by problem origin. The data from the questionnaires was evaluated to find connections between use of the application and changes in control the participants feels over osteoarthritis. Important findings were identified from observations, interview and questionnaires that affect the usability and effectiveness of the design.
 
+### Results and sample redesign
 The study resulted in eighteen important findings about the usability and effectiveness of the prototype in achieving the design goal. I clustered these findings in five categories. These findings were used to create a sample redesign and a number of recommendations on how to move forward with all the knowledge gained from this project.
 
-## Future recommendations
+#### Future recommendations
 
 1. Make a smartwatch app the core of the design.
 2. Add an overview of factors and physical activity.
@@ -215,5 +224,14 @@ The study resulted in eighteen important findings about the usability and effect
 8. Start investigating and building the AI.
 9. Find a generic way to measure physical activity.
 10. Test when to measure and what to measure.
+
+<Gallery>
+
+![Redesign for the watch](img/iphone.png)
+![Redesign for the watch](img/iphone2.png)
+</Gallery>
+
+![Redesign for the watch](img/watch2.png)
+
 
 </RegularBlock>
