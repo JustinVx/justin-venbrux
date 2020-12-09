@@ -6,6 +6,7 @@ import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
+import AboutPage from "../components/aboutPage"
 
 const AboutPageContainer = styled.div`
   margin: 0 auto;
@@ -18,14 +19,6 @@ const AboutPageContainer = styled.div`
     padding-left: 16px;
     padding-right: 16px;
   }
-`
-
-const AboutPage = styled.p`
-  font-size: 1.4rem;
-  font-weight: normal;
-  text-align: center;
-  margin-top: ${rhythm(1)};
-  margin-bottom: ${rhythm(2)};
 `
 
 const WorkContainer = styled.div`
