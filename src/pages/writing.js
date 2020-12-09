@@ -5,14 +5,7 @@ import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 import SubTitle from "../components/subTitle"
 import SEO from "../components/seo"
-
-const AboutPage = styled.p`
-  font-size: 1.4rem;
-  font-weight: normal;
-  text-align: center;
-  margin-top: ${rhythm(1)};
-  margin-bottom: ${rhythm(2)};
-`
+import AboutPage from "../components/aboutPage"
 
 const PostContainer = styled.div`
   margin-bottom: ${rhythm(1)};
