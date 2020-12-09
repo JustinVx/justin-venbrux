@@ -45,6 +45,7 @@ const NavMenu = styled.div`
   a {
     margin-left: 1rem;
     color: #444;
+    border-bottom: 3px solid transparent;
   }
 
   a:hover {
