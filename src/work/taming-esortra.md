@@ -5,10 +5,8 @@ type: work
 thumbnail: img/taming-home.png
 logo: img/taming-logo.png
 featured: true
-description: Give osteoarthritis patients control over the burden of their
-  disease using exercise.
+description: A persuasive game that helps to give osteoarthritis patients control over their disease using exercise.
 ---
-import IntroBlock from "../components/introBlock"
 import IntroTable from "../components/introTable"
 
 <Title>Taming Esorta</Title>
