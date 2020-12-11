@@ -49,8 +49,13 @@ const NavMenu = styled.div`
   }
 
   a:hover {
-    transform: scale(1.1);
     color: black;
+  }
+
+  @media(pointer:fine) {
+    a:hover {
+      transform: scale(1.1);
+    }
   }
 
   .active {
