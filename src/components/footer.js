@@ -26,7 +26,7 @@ const FooterContent = styled.div`
 export default function Footer() {
  return (
    <FooterContainer>
-    <FooterSticker src={sticker} />
+    <FooterSticker src={sticker} alt="Head Sticker"/>
     <FooterContent>
     © 2020 Justin Venbrux, All Rights Reserved.
     </FooterContent>
