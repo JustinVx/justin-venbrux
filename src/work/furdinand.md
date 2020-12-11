@@ -56,7 +56,7 @@ For our third prototype we build a robot that could express attention with its a
 </Gallery>
 
 <EmbedVideo>
-<video loop muted autoplay poster="img/nuts.jpg">
+<video loop muted autoplay controls poster="img/nuts.jpg">
   <source src="img/nuts.mp4" type="video/mp4"></source>
   <source src="img/nuts.webm" type="video/webm"></source>
   <source src="img/nuts.ogg" type="video/ogg"></source>
