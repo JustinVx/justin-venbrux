@@ -26,6 +26,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-panelbear`,
+      options: {
+        siteID: 'Ltp5EpzWVYr',
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
