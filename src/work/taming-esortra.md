@@ -10,7 +10,7 @@ description: A persuasive game that helps to give osteoarthritis patients contro
 import IntroTable from "../components/introTable"
 
 <Title>Taming Esorta</Title>
-<SubTitle>Graduation Project - 2018-2019</SubTitle>
+<SubTitle>Graduation Project - 2017-2018</SubTitle>
 
 <HeroImage>
 
