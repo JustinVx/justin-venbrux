@@ -7,8 +7,6 @@ import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
 import Img from "gatsby-image"
 import SEO from "../components/seo"
-import genzo from "../images/genzo-home.jpg"
-import genzoLogo from "../images/genzo-logo.png"
 
 const HeroContainer = styled.div`
   margin: 0 auto;
@@ -160,13 +158,6 @@ export default function Index({ data }) {
       </HeroContainer>
       <WorkContainer>
         <Work>
-          <ProjectCard 
-            title="Genzō"
-            description="A platform that helps healthcare professionals receive remote expertise using smartglasses."
-            thumbnail={genzo}
-            logo={genzoLogo}
-            file="/genzo/"
-          />
           {data.allMdx.edges.map(({ node }) => (
             <ProjectCard 
               key={node.id}
