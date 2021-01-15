@@ -10,7 +10,7 @@ const ColumnsContainer = styled.div`
   width: 100%;
 
   margin-top: ${rhythm(1.5)};
-  margin-bottom: ${rhythm(1.5)};
+  margin-bottom: ${rhythm(2.5)};
 
   div, figure, span {
     width: 450px;
