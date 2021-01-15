@@ -4,10 +4,11 @@ date: 2020-12-09
 type: work
 thumbnail: img/genzo-home.jpg
 logo: img/genzo-logo.png
-featured: false
+featured: true
 description: A platform that helps healthcare professionals to provide remote expertise using smartglasses.
 ---
 import ColumnBlock from "../components/ColumnBlock"
+import CompareQuality from "../components/compareQuality"
 
 <Title>Genzō</Title>
 <SubTitle>1Minuut - Healthcare Innovation</SubTitle>
@@ -53,112 +54,52 @@ You can find some of the challenges and results below:
 <ColumnBlock
   title="Visual redesign of the iOS and Android app"
   text="Our first objective was to make a fresh redesign of the iOS and Android app. We went to one of our clients and interviewed users and consultants to identify the main issues that users had run into. Based on insights gathered there we started a redesign for Genzō. We focused on improving consistency, feedback, error prevention and clarity."
+  reversed
 >
 
 ![An iPhone 8 in portrait with a chatting interface and an iPhone 8 in landscape displaying a stream from smartglasses](img/fresh-redesign.png)
 </ColumnBlock>
 <ColumnBlock
-  title="Improved video quality"
-  text="Not a regular design iteration, but still very important in terms of UX: It focused on quality improvements. We focused on reducing bugs in the app and on improving stability, performance and video quality! I worked with our developers and our QA tester on setting up a workflow that allowed us to create a much better app."
-  reversed
+  title="On-screen instructions on smartglasses"
+  text="The vast majority of people has never used smartglasses before, which means that for new Genzō users there is always a steep learning curve. Through interviewing users and consultants at one of our clients, we identified the main issues that users were running into. With clear and concise on-screen instructions a design was made to help users learn how to control our app on smartglasses."
 >
 
-![A hovering iPhone with the 2019 Locus app opened](img/user-test.png)
+![Contact list on Vuzix M400 with instructions on the side](img/side-view.png)
+</ColumnBlock>
+<ColumnBlock
+  title="Improved video quality"
+  text="Not a regular design iteration, but still very important in terms of UX: It focused on quality improvements. We focused on reducing bugs in the app and on improving stability, performance and video quality!"
+  reversed
+>
+<CompareQuality />
 </ColumnBlock>
 <ColumnBlock
   title="Structured way of developing"
-  text="At the end of this iteration we were able to solve some major issues. The video calling function now worked every time and the quality was greatly improved. We also now had a procedure in place to develop new functionality that also works well."
+  text="Working with inexperienced remote developers from a very different culture provided a challenging experience. I set up procedures and workflows that allowed us to improve the quality and efficiency of development. Among those were improved hand-off, the introduction of a DTAP street and improved collaboration with some of our clients while testing. All of this helped to efficiently develop new functionality that also works well."
 >
 
-![A hovering iPhone with the 2019 Locus app opened](img/locus-2019-hover.png)
+![Workflow Development-Test-Acceptance-Production](img/DTAP.jpg)
 </ColumnBlock>
 <ColumnBlock
-  title="On-screen instructions on smartglasses"
-  text="New device; hard to learn
-  Journey mapping
-  Easy for the user"
+  title="Easy internet connectivity"
+  text="Through journey mapping and usability testing we found that one of the major pain points for users was connecting the smartglasses to the internet. After exploring various possibilities, I designed a user flow to make this process quick and easy, with the help of QR-codes and Mifi routers"
   reversed
 >
 
-![A hovering iPhone with the 2019 Locus app opened](img/user-test.png)
+![Vuzix M400](img/Vuzix-M400.png)
 </ColumnBlock>
+<ColumnBlock
+  title="Starting a call quickly"
+  text="Another pain point was users getting lost and/or stuck in other apps on Vuzix devices. By setting Genzō as a launcher app — effectively making the smartglasses a dedicated one-app device — we made it possible to start up the device and call the most recent contact with just a single click. Making this work involved incorporating system settings and other OS functionality inside the Genzõ app itself."
+>
 
-
-<ColumnBlock><div>
-
-## A DTAP street
-- Allow acceptance for our clients
-
-</div><div>
-
-![A hovering iPhone with the 2019 Locus app opened](img/locus-2019-hover.png)
-
-</div>
+![Launching animation of Genzõ](img/start.gif)
 </ColumnBlock>
+<ColumnBlock
+  title="Clear and structured web-tool for admins"
+  text="With the use of Genzõ growing, it became more and more important to manage these organisations well. By interviewed admins from a few of our clients, we found out about their desires and how their organisations were structured. We also spoke to project managers and got feedback from the end users of Genzõ. Based on this we identified insights, that were used to design and build a clear and structured web-tool requiring as little management as possible."
+  reversed
+>
 
-
-<ColumnBlock><div>
-
-![A hovering iPhone with the 2019 Locus app opened](img/user-test.png)
-
-</div><div>
-
-## Easy internet connectivity
-LTE or eSim would be easiest
-A QR-code makes it possible to connect to WiFi quickly
-Various possibilities
-
-</div>
-</ColumnBlock>
-
-
-<ColumnBlock><div>
-
-## A quick start with a call
-Setting Genzō as a launcher app prevents errors from happening
-
-</div><div>
-
-![A hovering iPhone with the 2019 Locus app opened](img/nut1.jpg)
-
-</div>
-</ColumnBlock>
-
-
-<ColumnBlock><div>
-
-![A hovering iPhone with the 2019 Locus app opened](img/user-test.png)
-
-</div><div>
-
-## Quick calls via voice commands 
-- makes calling the right person quick and easy
-- testing languages
-- animated design
-
-</div>
-</ColumnBlock>
-
-<RegularBlock>
-
-
-
-
-
-</RegularBlock>
-<ColumnBlock>
-
-<div>
-
-## A fully new, clear and structured web-tool for admins
-- based on admin input
-- web-bases
-- reducing input
-
-</div><div>
-
-![A hovering iPhone with the 2019 Locus app opened](img/user-test.png)
-
-</div>
-
+![Safari Window with Professionals page](img/admintool.png)
 </ColumnBlock>
