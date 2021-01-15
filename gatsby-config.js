@@ -19,13 +19,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/static/img/`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-panelbear`,
       options: {
         siteID: 'Ltp5EpzWVYr',
