@@ -16,7 +16,7 @@
 		"//": "========= PRIVATE SCRIPTS =========",
 		"_clean": "gatsby clean",
 		"_build": "gatsby build",
-		"_encrypt": "npx staticrypt public/work/genzo/index.html simsalabim -o public/work/genzo/index.html -f static/staticryptTemplate.html",
+		"_encrypt": "npx staticrypt public/work/genzo/index.html simsalabim -o public/work/genzo/index.html -f public/staticryptTemplate.html",
 		"_deploy": "npx netlify-cli deploy --dir=public --prod"
   },
   "dependencies": {

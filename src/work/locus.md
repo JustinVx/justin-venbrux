@@ -18,7 +18,7 @@ description: A navigation app that helps outdoor enthusiasts to plan, to finish
 </HeroImage>
 
 <IntroText>
-I was part of the team that made a redesign for this clunky to use navigation app; transforming it into an app that helps outdoor enthusiasts to plan, to finish and to relive their perfect route.
+I was part of the team that made a redesign for a clunky to use navigation app; transforming it into an app that helps outdoor enthusiasts to plan, to finish and to relive their perfect route.
 </IntroText>
 
 <RegularBlock>
