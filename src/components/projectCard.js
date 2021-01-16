@@ -156,9 +156,8 @@ const ProjectCardImageLogo = styled.div`
   }
 `
 
-
 const ProjectCard = ({ title, description, thumbnail, logo, file}) => (
-  <ProjectCardContainer to={`${file}`}>
+  <ProjectCardContainer to={`${file === "/work/genzo/" ? "/genzo/" : file}`}>
     <ProjectCardContent className="ProjectCardContent">
       <ProjectCardTitle>
         {title}
