@@ -103,3 +103,10 @@ You can find some of the challenges and results below:
 
 ![Safari Window with Professionals page](img/admintool.png)
 </ColumnBlock>
+<ColumnBlock
+  title="Improved user onboarding"
+  text="I worked on a complete overhaul of the onboarding of Genzõ. First we gathered user insights and subsequently defined goals based on these insights. In the end we were able to drastically reduce elements that users need to remember, we made sure that users can start using Genzõ directly after onboarding and we made all of this as safe as possible. For the design I worked with security experts and I also spent a lot of effort on creating a smooth transitioning experience for existing users."
+>
+
+![Start screen; select role screen; profile screen](img/onboarding-genzo.png)
+</ColumnBlock>
