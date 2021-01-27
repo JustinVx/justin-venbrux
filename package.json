@@ -14,11 +14,11 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "publish": "npm run _clean && npm run _build && npm run _encrypt && npm run _deploy",
     "makeready": "npm run _clean && npm run _build && npm run _encrypt",
-		"//": "========= PRIVATE SCRIPTS =========",
-		"_clean": "gatsby clean",
-		"_build": "gatsby build",
-		"_encrypt": "npx staticrypt public/work/genzo/index.html simsalabim -o public/work/genzo/index.html -f public/staticryptTemplate.html",
-		"_deploy": "npx netlify-cli deploy --dir=public --prod"
+    "//": "========= PRIVATE SCRIPTS =========",
+    "_clean": "gatsby clean",
+    "_build": "gatsby build",
+    "_encrypt": "npx staticrypt public/work/genzo/index.html simsalabim -o public/work/genzo/index.html -f public/staticryptTemplate.html",
+    "_deploy": "npx netlify-cli deploy --dir=public --prod"
   },
   "dependencies": {
     "@emotion/core": "^10.0.35",
@@ -42,6 +42,7 @@
     "gatsby-remark-images": "^3.6.0",
     "gatsby-source-filesystem": "^2.6.0",
     "gatsby-transformer-sharp": "^2.7.0",
+    "lax.js": "^2.0.3",
     "netlify-cli": "^3.2.0",
     "netlify-cms-app": "^2.14.1",
     "react": "^16.12.0",

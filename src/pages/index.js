@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import styled from "@emotion/styled"
 import { Link, graphql } from "gatsby"
 import Header from "../components/header"
@@ -6,6 +6,7 @@ import Footer from "../components/footer"
 import ProjectCard from "../components/projectCard"
 import { rhythm } from "../utils/typography"
 import Img from "gatsby-image"
+import lax from "lax.js"
 import SEO from "../components/seo"
 
 const HeroContainer = styled.div`
@@ -132,6 +133,39 @@ const WorkButton = styled(Link)`
 `
 
 export default function Index({ data }) {
+  useEffect(() => {
+    lax.init();
+
+    lax.addDriver("scrollY", function () {
+      return window.scrollY;
+    });
+
+    lax.addElements(
+      ".hero-image",
+      {
+        scrollY: {
+          translateY: [
+            [0, 400],
+            [0, 50]
+          ]
+        }
+      }
+    );
+
+    lax.addElements(
+      ".hero-text",
+      {
+        scrollY: {
+          translateY: [
+            [0, 400],
+            [0, 30]
+          ]
+        }
+      }
+    );
+
+  });
+
   return (
     <>
       <SEO title="Home" />
