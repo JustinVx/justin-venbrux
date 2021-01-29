@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "@emotion/styled"
-import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
@@ -74,20 +74,20 @@ export default function Header() {
     <HeaderContainer>
       <NavContainer>
         <NavTitle>
-          <Link to={`/`}>
+          <AniLink cover to={`/`} direction="down" bg="#343a40">
             <span role="img" aria-label="light bulb">💡</span> Justin Venbrux
-          </Link>
+          </AniLink>
         </NavTitle>
         <NavMenu>
-          <Link to={`/`} activeClassName="active">
+          <AniLink cover to={`/`} direction="down" activeClassName="active" bg="#343a40">
             Home
-          </Link>
-          <Link to={`/work/`} activeClassName="active">
+          </AniLink>
+          <AniLink cover to={`/work/`} direction="down" activeClassName="active" bg="#343a40">
             Work
-          </Link>
-          <Link to={`/writing/`} activeClassName="active">
+          </AniLink>
+          <AniLink cover to={`/writing/`} direction="down" activeClassName="active" bg="#343a40">
             Writing
-          </Link>
+          </AniLink>
         </NavMenu>
       </NavContainer>
     </HeaderContainer>
