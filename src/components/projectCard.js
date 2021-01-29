@@ -1,8 +1,13 @@
 import React from "react";
-import { Link } from "gatsby";
 import styled from "@emotion/styled";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-const ProjectCardContainer = styled(Link)`
+const buttonTextColor = '#f5f5f5';
+const buttonBgColor = '#343a40';
+const buttonHoverTextColor = '#343a40';
+const buttonHoverBgColor = '#ff7676';
+
+const ProjectCardContainer = styled(AniLink)`
   display: grid;
   grid-template-columns: 5fr 7fr;
   margin-top: 3em;
@@ -22,8 +27,8 @@ const ProjectCardContainer = styled(Link)`
   &:hover {
 
     .ProjectCardAction {
-      color: #f5f5f5;
-      background: #343a40;
+      color: ${buttonHoverTextColor};
+      background: ${buttonHoverBgColor};
       transition: all 150ms ease-in-out;
       padding-right: 1em;
 
@@ -92,9 +97,9 @@ const ProjectCardAction = styled.div`
   font-weight: 500;
   font-size: 0.9rem;
   text-decoration: none;
-  color: #343a40;
+  color: ${buttonTextColor};
   transition: all 150ms ease-in-out;
-  background: white;
+  background: ${buttonBgColor};
   display: inline-block;
   padding: 0.2em 0.5em 0.3em 1.5em;
   padding-right: 0.5em;
@@ -157,7 +162,7 @@ const ProjectCardImageLogo = styled.div`
 `
 
 const ProjectCard = ({ title, description, thumbnail, logo, file}) => (
-  <ProjectCardContainer to={`${file === "/work/genzo/" ? "/genzo/" : file}`}>
+  <ProjectCardContainer paintDrip to={`${file === "/work/genzo/" ? "/genzo/" : file}`} hex={buttonHoverBgColor}>
     <ProjectCardContent className="ProjectCardContent">
       <ProjectCardTitle>
         {title}
