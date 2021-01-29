@@ -25,50 +25,53 @@ const ProjectCardContainer = styled(AniLink)`
     grid-template-columns: 1fr;
   }
 
-  &:hover {
+  @media(pointer:fine) {
 
-    .ProjectCardAction {
-      color: ${buttonHoverTextColor};
-      background: ${buttonHoverBgColor};
-      transition: all 150ms ease-in-out;
-      padding-right: 1em;
-      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.30);
+    &:hover {
 
-      span {
-        transform: translateX(0px);
-        opacity: 1;
-        transition: transform 150ms ease-in-out;
+      .ProjectCardAction {
+        color: ${buttonHoverTextColor};
+        background: ${buttonHoverBgColor};
+        transition: all 150ms ease-in-out;
+        padding-right: 1em;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.30);
+
+        span {
+          transform: translateX(0px);
+          opacity: 1;
+          transition: transform 150ms ease-in-out;
+        }
       }
-    }
 
-    .ProjectCardImageContainer {
-      .thumbnail {
-        opacity: 0.5;
-        transform: scale(1);
-        transition: all 800ms ease;
+      .ProjectCardImageContainer {
+        .thumbnail {
+          opacity: 0.5;
+          transform: scale(1);
+          transition: all 800ms ease;
+        }
+        img {
+          border-radius: 48px;
+          transition: all 800ms ease;
+        }
       }
-      img {
+
+      .ProjectCardImageOverlay {
         border-radius: 48px;
+        transform: scale(1);
+        opacity: 1;
         transition: all 800ms ease;
       }
+
+      .ProjectCardImageLogo {
+        opacity: 1;
+        transition: all 600ms ease;
+
+        img {
+          border-radius: 5px;
+          transition: all 800ms ease;
+        }
+      } 
     }
-
-    .ProjectCardImageOverlay {
-      border-radius: 48px;
-      transform: scale(1);
-      opacity: 1;
-      transition: all 800ms ease;
-    }
-
-    .ProjectCardImageLogo {
-      opacity: 1;
-      transition: all 600ms ease;
-
-      img {
-        border-radius: 5px;
-        transition: all 800ms ease;
-      }
-    } 
   }
 `
 
