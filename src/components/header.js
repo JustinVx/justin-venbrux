@@ -3,6 +3,11 @@ import styled from "@emotion/styled"
 import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
 
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
+
 const HeaderContainer = styled.div`
   background-image: linear-gradient(#f5f5f5 0%, #fff 100%);
 `
