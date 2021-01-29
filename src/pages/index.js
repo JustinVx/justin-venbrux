@@ -8,6 +8,7 @@ import { rhythm } from "../utils/typography"
 import Img from "gatsby-image"
 import lax from "lax.js"
 import SEO from "../components/seo"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import veringmeier from "../images/wlogo/Veringmeier.png"
 import dhh from "../images/wlogo/Dutch-Hacking-Health.png"
@@ -15,8 +16,8 @@ import tu from "../images/wlogo/TU.png"
 import klm from "../images/wlogo/KLM.png"
 import eenminuut from "../images/wlogo/1Minuut.png"
 
-const buttonTextColor ='#f5f5f5';
-const buttonBgColor ='#343a40';
+const buttonTextColor = '#f5f5f5';
+const buttonBgColor = '#343a40';
 const buttonHoverTextColor = '#343a40';
 const buttonHoverBgColor = '#ff7676';
 
@@ -177,7 +178,7 @@ const WorkButtonContainer = styled.div`
   justify-content: flex-end;
 `
 
-const WorkButton = styled(Link)`
+const WorkButton = styled(AniLink)`
   display: block;
   font-weight: 500;
   font-size: 0.9rem;
@@ -297,7 +298,7 @@ export default function Index({ data }) {
             />
           ))}
           <WorkButtonContainer>
-            <WorkButton to={'/work/'}>
+            <WorkButton cover to={'/work/'} bg="#343a40">
               See more work <span>&#8594;</span>
             </WorkButton>
           </WorkButtonContainer>
