@@ -30,13 +30,11 @@
         .staticrypt-form {
             position: relative;
             z-index: 1;
-            background: #FFFFFF;
+            background: white;
             max-width: 315px;
             margin: 0 auto 100px;
             padding: 30px;
             text-align: center;
-            border-radius: 24px;
-            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.20);
         }
 
         .staticrypt-form input {
@@ -77,11 +75,7 @@
 
         .staticrypt-body {
             margin-bottom: 1em;
-            background: #f5f5f5; /* fallback for old browsers */
-            background: -webkit-linear-gradient(right, #fff, #f5f5f5);
-            background: -moz-linear-gradient(right, #fff, #f5f5f5);
-            background: -o-linear-gradient(right, #fff, #f5f5f5);
-            background: linear-gradient(to left, #fff, #f5f5f5);
+            background: white; /* fallback for old browsers */
             font-family: "Menlo", monospace, sans-serif;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
@@ -98,26 +92,6 @@
             font-weight: 700;
         }
 
-        .staticrypt-footer {
-            position: fixed;
-            height: 20px;
-            font-size: 16px;
-            padding: 2px;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin-bottom: 0;
-        }
-
-        .staticrypt-footer p {
-            margin: 2px;
-            text-align: center;
-            float: right;
-        }
-
-        .staticrypt-footer a {
-            text-decoration: none;
-        }
     </style>
 </head>
 
@@ -143,10 +117,6 @@
     </div>
 
 </div>
-<footer class="staticrypt-footer">
-    <p class="pull-right">Created with <a href="https://robinmoisson.github.io/staticrypt">StatiCrypt</a></p>
-</footer>
-
 
 {crypto_tag}
 
