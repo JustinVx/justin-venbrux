@@ -13,11 +13,13 @@ a {
 
 p a {
   text-decoration: none;
-  background-image: linear-gradient(to top, rgb(255, 242, 118), rgb(255, 242, 118) 7px, rgba(0, 0, 0, 0) 7px);
+  color: #343a40;
+  background-image: linear-gradient(to top, rgba(255, 242, 118, 1), rgba(255, 242, 118, 1) 20%, rgba(0, 0, 0, 0) 3px);
 }
 
 p a:hover {
-  background-image: linear-gradient(to top, #ff7676, #ff7676 7px, rgba(0, 0, 0, 0) 7px);
+  color: black;
+  background-image: linear-gradient(to top, #ff7676, #ff7676 90%, rgba(0, 0, 0, 0) 90%);
 }
 
 blockquote {
