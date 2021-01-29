@@ -1,5 +1,5 @@
 ---
-title: Genzō
+title: Genzõ
 date: 2020-12-09
 type: work
 thumbnail: img/genzo-home.jpg
@@ -10,7 +10,7 @@ description: A platform that helps healthcare professionals to provide remote ex
 import ColumnBlock from "../components/ColumnBlock"
 import CompareQuality from "../components/compareQuality"
 
-<Title>Genzō</Title>
+<Title>Genzõ</Title>
 <SubTitle>1Minuut - Healthcare Innovation</SubTitle>
 
 <HeroImage>
@@ -35,8 +35,8 @@ Through many iterations I worked on designing and optimizing Genzõ. During this
 
 <RegularBlock>
 
-## What is Genzō?
-Genzō can be best explained by describing its users and an example scenario. Typically there are two users: 
+## What is Genzõ?
+Genzõ can be best explained by describing its users and an example scenario. Typically there are two users: 
 1. A care worker or nurse that **needs help** or information while dealing with a specific situation that he or she doesn't have the expertise or qualifications to deal with.
 2. A nurse or specialist that does have the **expertise** to deal with this situation, but who is **not at the location**.
 
@@ -45,7 +45,7 @@ Genzō can be best explained by describing its users and an example scenario. Ty
 An example of a typical scenario: A nurse in a nursing home is helping a resident and finds a wound. The nurse isn't sure what to do. She grabs a pair of smartglasses and uses the Genzõ app to call a wound care specialist and to stream her point of view to the smartphone of the specialist. The specialist assesses what needs to be done and instructs the nurse on what to do next.
 
 ## My role
-I work as a Product Designer and Product Owner at 1Minuut on the Genzõ product (along with some other projects). I have been working on Genzō for two years and during this time I have worked on numerous improvements. One of the first things I did was setting the design goal for Genzō. Based on a two-week research analysis, the following goal was defined:
+I work as a Product Designer and Product Owner at 1Minuut on the Genzõ product (along with some other projects). I have been working on Genzõ for two years and during this time I have worked on numerous improvements. One of the first things I did was setting the design goal for Genzõ. Based on a two-week research analysis, the following goal was defined:
 > Make it easy for care professionals to safely enable remote expertise using smart glasses from and to any possible location.
 
 You can find some of the challenges and results below:
@@ -53,7 +53,7 @@ You can find some of the challenges and results below:
 </RegularBlock>
 <ColumnBlock
   title="Visual redesign of the iOS and Android app"
-  text="Our first objective was to make a fresh redesign of the iOS and Android app. We went to one of our clients and interviewed users and consultants to identify the main issues that users had run into. Based on insights gathered there we started a redesign for Genzō. We focused on improving consistency, feedback, error prevention and clarity."
+  text="Our first objective was to make a fresh redesign of the iOS and Android app. We went to one of our clients and interviewed users and consultants to identify the main issues that users had run into. Based on insights gathered there we started a redesign for Genzõ. We focused on improving consistency, feedback, error prevention and clarity."
   reversed
 >
 
@@ -61,7 +61,7 @@ You can find some of the challenges and results below:
 </ColumnBlock>
 <ColumnBlock
   title="On-screen instructions on smartglasses"
-  text="The vast majority of people has never used smartglasses before, which means that for new Genzō users there is always a steep learning curve. Through interviewing users and consultants at one of our clients, we identified the main issues that users were running into. With clear and concise on-screen instructions a design was made to help users learn how to control our app on smartglasses."
+  text="The vast majority of people has never used smartglasses before, which means that for new Genzõ users there is always a steep learning curve. Through interviewing users and consultants at one of our clients, we identified the main issues that users were running into. With clear and concise on-screen instructions a design was made to help users learn how to control our app on smartglasses."
 >
 
 ![Contact list on Vuzix M400 with instructions on the side](img/side-view.png)
@@ -90,7 +90,7 @@ You can find some of the challenges and results below:
 </ColumnBlock>
 <ColumnBlock
   title="Starting a call quickly"
-  text="Another pain point was users getting lost and/or stuck in other apps on Vuzix devices. By setting Genzō as a launcher app — effectively making the smartglasses a dedicated one-app device — we made it possible to start up the device and call the most recent contact with just a single click. Making this work involved incorporating system settings and other OS functionality inside the Genzõ app itself."
+  text="Another pain point was users getting lost and/or stuck in other apps on Vuzix devices. By setting Genzõ as a launcher app — effectively making the smartglasses a dedicated one-app device — we made it possible to start up the device and call the most recent contact with just a single click. Making this work involved incorporating system settings and other OS functionality inside the Genzõ app itself."
 >
 
 ![Launching animation of Genzõ](img/start.gif)
