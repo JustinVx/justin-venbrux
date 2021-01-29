@@ -9,7 +9,7 @@ import Img from "gatsby-image"
 import lax from "lax.js"
 import SEO from "../components/seo"
 
-import veringmeier from "../images/wlogo/veringmeier.png"
+import veringmeier from "../images/wlogo/Veringmeier.png"
 import dhh from "../images/wlogo/Dutch-Hacking-Health.png"
 import tu from "../images/wlogo/TU.png"
 import klm from "../images/wlogo/KLM.png"
