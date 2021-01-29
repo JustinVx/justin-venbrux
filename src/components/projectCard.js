@@ -5,7 +5,8 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 const buttonTextColor = '#f5f5f5';
 const buttonBgColor = '#343a40';
 const buttonHoverTextColor = '#343a40';
-const buttonHoverBgColor = '#ff7676';
+const buttonHoverBgColor = 'white';
+const paintDripColor = '#8BD7D2';
 
 const ProjectCardContainer = styled(AniLink)`
   display: grid;
@@ -31,6 +32,7 @@ const ProjectCardContainer = styled(AniLink)`
       background: ${buttonHoverBgColor};
       transition: all 150ms ease-in-out;
       padding-right: 1em;
+      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.30);
 
       span {
         transform: translateX(0px);
@@ -162,7 +164,7 @@ const ProjectCardImageLogo = styled.div`
 `
 
 const ProjectCard = ({ title, description, thumbnail, logo, file}) => (
-  <ProjectCardContainer paintDrip to={`${file === "/work/genzo/" ? "/genzo/" : file}`} hex={buttonHoverBgColor}>
+  <ProjectCardContainer paintDrip to={`${file === "/work/genzo/" ? "/genzo/" : file}`} hex={paintDripColor}>
     <ProjectCardContent className="ProjectCardContent">
       <ProjectCardTitle>
         {title}
