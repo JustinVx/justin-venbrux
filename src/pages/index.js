@@ -52,7 +52,7 @@ const Hero = styled.div`
     justify-content: center;
     
     .image {
-      background-color: #fff276;
+      background-color: #bbb;
       border: solid 10px white;
       border-bottom: solid 20px white;
       border-radius: 2px;
@@ -77,7 +77,7 @@ const Hero = styled.div`
 
 const HeroButton = styled(Link)`
   display: block;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0.9rem;
   text-decoration: none;
   color: ${buttonTextColor};
@@ -339,7 +339,7 @@ export const query = graphql`
     file(relativePath: { eq: "images/justin.jpg" }) {
       childImageSharp {
         fixed(width: 100, height: 100) {
-          ...GatsbyImageSharpFixed
+          ...GatsbyImageSharpFixed_withWebp_tracedSVG
         }
       }
     }
