@@ -9,11 +9,22 @@ import Img from "gatsby-image"
 import lax from "lax.js"
 import SEO from "../components/seo"
 
+import veringmeier from "../images/wlogo/veringmeier.png"
+import dhh from "../images/wlogo/Dutch-Hacking-Health.png"
+import tu from "../images/wlogo/TU.png"
+import klm from "../images/wlogo/KLM.png"
+import eenminuut from "../images/wlogo/1Minuut.png"
+
+const buttonTextColor ='#f5f5f5';
+const buttonBgColor ='#343a40';
+const buttonHoverTextColor = '#343a40';
+const buttonHoverBgColor = '#ff7676';
+
 const HeroContainer = styled.div`
   margin: 0 auto;
   max-width: 800px;
   padding-top: ${rhythm(2)};
-  padding-bottom: ${rhythm(1.5)};
+  padding-bottom: ${rhythm(1)};
   
   color: #252733;
 `
@@ -64,6 +75,69 @@ const Hero = styled.div`
   }
 `
 
+const HeroButton = styled(Link)`
+  display: block;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: ${buttonTextColor};
+  background: ${buttonBgColor};
+  transition: all 150ms ease-in-out;
+  display: inline-block;
+  padding: 0.2em 0.5em 0.3em 1.5em;
+  padding-right: 1em;
+  border-radius: 100px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.20);
+
+  span {
+    margin-left: 1em;
+    display: inline-block;
+    transform: rotate(90deg);
+    transition: transform 100ms ease-in-out;
+    opacity: 0.5;
+  }
+
+  &:hover {
+    color: ${buttonHoverTextColor};
+    background: ${buttonHoverBgColor};
+    transition: all 150ms ease-in-out;
+
+    span {
+      opacity: 1;
+      transform: rotate(90deg);
+      transition: transform 100ms ease-in-out;
+    }
+  }
+`
+
+const LogosContainer = styled.div`
+  margin: 0 auto;
+  max-width: 800px;
+  display: block;
+  padding: ${rhythm(0)};
+  padding-bottom: ${rhythm(1)};
+  background-color: white;
+`
+
+const Logos = styled.div`
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1fr;
+  max-width: 800px;
+
+  img {
+    max-width: 80px;
+    justify-self: center;
+  }
+
+  @media(max-width:600px) {
+    img {
+      max-width: 60px;
+    }
+  }
+
+`
+
 const WorkContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -90,6 +164,14 @@ const Work = styled.div`
   }
 `
 
+const WorkTitle = styled.div`
+  color: #aaa;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.8em;
+  text-align: center;
+`
+
 const WorkButtonContainer = styled.div`
   display: flex;
   justify-content: flex-end;
@@ -100,9 +182,9 @@ const WorkButton = styled(Link)`
   font-weight: 500;
   font-size: 0.9rem;
   text-decoration: none;
-  color: #343a40;
+  color: ${buttonTextColor};
+  background: ${buttonBgColor};
   transition: all 150ms ease-in-out;
-  background: white;
   display: inline-block;
   padding: 0.2em 0.5em 0.3em 1.5em;
   padding-right: 0.5em;
@@ -119,8 +201,8 @@ const WorkButton = styled(Link)`
 
   &:hover {
     transform: translateX(-8px);
-    color: #f5f5f5;
-    background: #343a40;
+    color: ${buttonHoverTextColor};
+    background: ${buttonHoverBgColor};
     transition: all 150ms ease-in-out;
     padding-right: 1em;
 
@@ -171,7 +253,6 @@ export default function Index({ data }) {
       <SEO title="Home" />
       <Header />
       <HeroContainer>
-      
         <Hero>
           <div className="hero-image">
             <Img
@@ -185,13 +266,26 @@ export default function Index({ data }) {
               I'm Justin.
             </h1>
             <h3>
-              I design cool things that help people. <span role="img" aria-label="rocket">🚀</span>
+              I design cool things that help people.
             </h3>
+            <HeroButton to="/#featured">
+              Explore <span>&#8594;</span>
+            </HeroButton>
           </div>
         </Hero>
       </HeroContainer>
-      <WorkContainer>
+      <LogosContainer>
+        <Logos>
+          <img src={eenminuut} alt="Logo 1Minuut" />
+          <img src={tu} alt="Logo TU delft" />
+          <img src={veringmeier} alt="Logo Veringmeier" />
+          <img src={klm} alt="Logo KLM" />
+          <img src={dhh} alt="Dutch Hacking Health" />
+        </Logos>
+      </LogosContainer>
+      <WorkContainer id="featured">
         <Work>
+          <WorkTitle>Featured work</WorkTitle>
           {data.allMdx.edges.map(({ node }) => (
             <ProjectCard 
               key={node.id}
