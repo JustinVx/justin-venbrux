@@ -56,11 +56,15 @@ I work as a Product Designer and Product Owner at 1Minuut on the Genzõ product 
 # Make it work
 One of the first things we did was setting the design goal for Genzō. After two weeks of research, we defined the following goal: **Enable safe, reliable, and easy-to-use remote expertise for healthcare professionals**. The priority was getting Genzõ from its prototypical state to a well-functioning app. We focused on stability and improving consistency, feedback, error prevention, and clarity.
 
+## A structured way of developing
+Working with inexperienced remote developers from a very different culture provided a challenging experience. I set up procedures and workflows that allowed us to improve the quality and efficiency of development. Among those were improved hand-off, a DTAP street, and improved collaboration with clients while testing. All of this helped with efficiently developing new functionality.
+
 </RegularBlock>
 
 <ColumnBlock
   title="Heuristic evaluation & redesign"
   text="Our first objective was to make a clear and consistent design for the iOS and Android app. A heurstic evaluation of the current design was done. We went to one of our clients and interviewed users and consultants to identify the main issues that users had run into. We focused on finding bugs and identifying redundant functionality. Based on this analysis a redesign was made with a focus on chatting and video calling."
+  reversed
 >
 
 ![Sketch of account screen, passcode screen, home screen, call screen, video call screen, chat screen, messages screen,menu screen, vuzix call screen, vuzix stream screen](img/genzo2-sketches.png)
@@ -69,18 +73,9 @@ One of the first things we did was setting the design goal for Genzō. After two
 <ColumnBlock
   title="Visual design"
   text="I worked on a visual detail-oriented redesign of the iOS and Android app. A style guide was made, which later turned into a design system for Genzõ. The visual design followed the goal of clarity and consistency. It matches the caring and positive attitude of our target group and follows recent design trends."
-  reversed
 >
 
 ![An iPhone 8 in portrait with a chatting interface and an iPhone 8 in landscape displaying a stream from smartglasses](img/fresh-redesign.png)
-</ColumnBlock>
-
-<ColumnBlock
-  title="A structured way of developing"
-  text="Working with inexperienced remote developers from a very different culture provided a challenging experience. I set up procedures and workflows that allowed us to improve the quality and efficiency of development. Among those were improved hand-off, a DTAP street, and improved collaboration with clients while testing. All of this helped with efficiently developing new functionality."
->
-
-![Workflow Development-Test-Acceptance-Production](img/DTAP.jpg)
 </ColumnBlock>
 
 <ColumnBlock
@@ -96,25 +91,21 @@ One of the first things we did was setting the design goal for Genzō. After two
 # Make it easy
 With Genzõ working well, the next goal was making it even easier to use. A special focus was on the UX for smart glasses. I worked with our consultants and used journey mapping to identify insights. With these insights, I created an improved design for our smart glasses app. This meant drastically simplifying the experience and also thinking out-of-the-box.
 
+## Customer journey mapping
+With our consultants, I identified the user journey for the existing product. We analyzed the different users: the specialists and the care professionals without the expertise. We also made sure to look at first-use and at recurring-use and identified the expected emotional response and pain points for our users.
+
+![Drawing of user journey](img/userjourney-s3.png)
+
 </RegularBlock>
 
 <ColumnBlock
   title="On-screen instructions on smartglasses"
   text="The vast majority of people have never used smart glasses before, which means that for a new Genzō user there is always a steep learning curve. One method we discovered to help users navigate this new interface was with the use of on-screen guidance. We made clear and concise on-screen instructions to help users navigate our app."
+  reversed
 >
 
 ![Contact list on Vuzix M400 with instructions on the side](img/side-view.png)
 </ColumnBlock>
-
-<ColumnBlock
-  title="Customer journey mapping"
-  text="With our consultants, I identified the user journey for the existing product. We analyzed the different users: the specialists and the care professionals without the expertise. We also made sure to look at first-use and at recurring-use and identified the expected emotional response and pain points for our users."
-  reversed
->
-
-![Drawing of user journey](img/userjourney-s3.png)
-</ColumnBlock>
-
 
 <ColumnBlock
   title="Connecting quick & easy"
