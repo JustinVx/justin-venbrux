@@ -34,13 +34,15 @@ How do you motivate osteoarthritis patients to exercise when this is very painfu
 
 <RegularBlock>
 
+![Design process of Taming Esortra](img/design-process.png "The design process")
+
 ## Objective
 
 This project started at the Erasmus Medical Centre in Rotterdam. At the 18th floor of the hospital, the [Biomedical Imaging Group Rotterdam](http://www.bigr.nl/) was working on a data model to predict the development of osteoarthritis in patients.
 
 They realized that this model alone wouldn't be enough to help people diagnosed with osteoarthritis. They were looking for a way it could be used to change behavior. That is were I came in.
 
-## Phase 1: Research
+# Phase 1: Research
 
 I started by deciding what I wanted to know about the subject. Considering this was part of my graduation thesis, I could do this extensively. I identified the following four research fields:
 
@@ -96,7 +98,7 @@ With a better understanding about osteoarthritis, the medical model and behavior
 
 A potential way of combining behavior change and eHealth is in persuasive game design. This is game design that aims to create a user experienced game world, which changes the user’s behavior in the real world.
 
-## Phase 2: Creating a design vision
+# Phase 2: Creating a design vision
 
 After having identified valuable insights from the research phase and the four behaviour change mechanics, my next step was to establish the design vision and design goal.
 
@@ -114,7 +116,7 @@ And from this vision the following design goal follows:
 
 > The goal of the design is to help improve the control the patient has over osteoarthritis, by gaining insight in the burden of the disease and reducing that burden through exercise.
 
-## Phase 3: Design
+# Phase 3: Design
 
 Using the design goal and vision I started a period of ideation. This involved a lot of brainstorming, discussions and simple sketches. In the brainstorming I always separated divergent phases, where I came up with ideas, from convergent phases, where I judged and clustered those ideas. Eventually I came up with three concepts that were not fully developed, but developed enough to make a decision about what way to go.
 
@@ -201,7 +203,7 @@ With the goal of a user test in mind, a prototype was created. I made it purpose
 
 After that the prototype was programmed to work for an iPhone, with the help of a few developers. The initial goal was to use an activity tracker to track activity, but this proved not to be possible due to time constraints. Therefor activity was measured through the iPhone in this first iteration, which made that only walking and running could be measured.
 
-## Phase 4: Evaluating the prototype
+# Phase 4: Evaluation
 
 My next step was to find out whether the goal of the design can be achieved in its current form, and in what way the effectiveness of the design can be improved. I conducted a user test in order to evaluate the effect of the design.
 
@@ -218,7 +220,7 @@ Important quotes, observations and findings about the application were transcrib
 ### Results and sample redesign
 The study resulted in eighteen important findings about the usability and effectiveness of the prototype in achieving the design goal. I clustered these findings in five categories. These findings were used to create a sample redesign and a number of recommendations on how to move forward with all the knowledge gained from this project.
 
-#### Future recommendations
+### Future recommendations
 
 1. Make a smartwatch app the core of the design.
 2. Add an overview of factors and physical activity.
