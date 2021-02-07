@@ -48,7 +48,7 @@ export default function WorkIndex({ data }) {
       <Header />
       <AboutPageContainer>
         <AboutPage>
-            Below is a selection of projects I worked on. <a href="mailto:info@justinvenbrux.nl">Email me</a> for questions, comments or suggestions. 🥽 
+            Below is a selection of projects I worked on. <a href="mailto:temporary.justin1minuut@spamgourmet.com">Email me</a> for questions, comments or suggestions. 🥽 
         </AboutPage>
       </AboutPageContainer>
       <WorkContainer>
